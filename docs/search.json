@@ -1,0 +1,597 @@
+[
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software for 500",
+    "section": "",
+    "text": "The course makes heavy use of the R statistical programming language, and several related tools, most especially the RStudio development environment. Every bit of this software is free to use, and open-source.\nYou will need access to a computer to do your work for this class, not just an iPad or other tablet, but an actual computer. You do not need a state of the art machine, nor should you need any special hardware to run things for this course."
+  },
+  {
+    "objectID": "software.html#updating-your-r-packages",
+    "href": "software.html#updating-your-r-packages",
+    "title": "Software for 500",
+    "section": "Updating Your R Packages",
+    "text": "Updating Your R Packages\nAbout twice a month, it’s a good idea to update your R packages. To do so, follow steps 3 and 4 above."
+  },
+  {
+    "objectID": "software.html#the-meta-packages",
+    "href": "software.html#the-meta-packages",
+    "title": "Software for 500",
+    "section": "The Meta-Packages",
+    "text": "The Meta-Packages\n\nInstalling the tidyverse meta-package installs the packages listed at https://www.tidyverse.org/.\nInstalling the tidymodels meta-package installs the packages listed at https://www.tidymodels.org/packages/."
+  },
+  {
+    "objectID": "software.html#note-a-windows-issue-with-rtools",
+    "href": "software.html#note-a-windows-issue-with-rtools",
+    "title": "Software for 500",
+    "section": "Note: A Windows Issue with RTools",
+    "text": "Note: A Windows Issue with RTools\nIf you are using Windows, and get messages during installation that the latest version of RTools needs to be installed, you can usually just ignore them. If you don’t want to ignore them, go here to download and install RTools for Windows."
+  },
+  {
+    "objectID": "software.html#installing-a-single-package",
+    "href": "software.html#installing-a-single-package",
+    "title": "Software for 500",
+    "section": "Installing a Single Package",
+    "text": "Installing a Single Package\nIf you want to install a single package, you can do so by finding the word Packages on the right side of your RStudio screen.\n\nClick on the Packages tab to start installing the packages you’ll need.\nClick Install, which will bring up a dialog box, where you can type in the names of the packages that you need. These should be separated by a space or comma. Be sure to leave the Install dependencies box checked.\n\n\nA popup box may appear, asking “Do you want to install from sources the packages which need compilation?” to which I usually answer No. A Yes response leads to a slower installation, but can solve problems if you still have them after updating.\nThis may take a few minutes. As long as you’re seeing activity in the Console window, things are progressing.\nEventually, you’ll get a message that “The downloaded source packages are in …” with a directory name. That’s the sign that the updating is done."
+  },
+  {
+    "objectID": "osia.html",
+    "href": "osia.html",
+    "title": "Observational Studies in Action",
+    "section": "",
+    "text": "This page houses information about Observational Studies in Action (OSIA) work for the course."
+  },
+  {
+    "objectID": "osia.html#the-assignment",
+    "href": "osia.html#the-assignment",
+    "title": "Observational Studies in Action",
+    "section": "The Assignment",
+    "text": "The Assignment\n\nYou will be responsible for presenting the methods and results of an observational study from the literature that uses propensity score methods. We call this role the “first reader”.\nYou will also serve as “second reader” from one of the studies selected by your colleagues."
+  },
+  {
+    "objectID": "osia.html#what-makes-an-appropriate-study",
+    "href": "osia.html#what-makes-an-appropriate-study",
+    "title": "Observational Studies in Action",
+    "section": "What makes an appropriate study?",
+    "text": "What makes an appropriate study?\nAn appropriate study will\n\nuse (or at least primarily use) propensity score methods we will discuss in class (hence the need for Dr. Love’s pre-approval)\nbe a fully published manuscript, not a work in progress\nbe published since 2015 in a venue where a PDF file of the study itself and any appendix materials can be shared with the class (so journals that are available to all CWRU affiliates are preferable). Dr. Love encourages you to look for studies published since 2020.\nnot be one that you or your immediate supervisor have been involved in, and not be one that I have been involved in, in any capacity."
+  },
+  {
+    "objectID": "osia.html#claiming-a-study",
+    "href": "osia.html#claiming-a-study",
+    "title": "Observational Studies in Action",
+    "section": "Claiming a Study",
+    "text": "Claiming a Study\nEveryone will present a different study. To submit a study for approval, send a PDF of the study itself along with any appendix materials to Dr. Love in an email to thomas dot love at case dot edu entitled “OSIA proposal” and include a brief (100 words is sufficient, in the body of your email) description of why this particular study is of interest to you.\nPlease be sure to specify that you meet each of the four standards listed above.\n\nDo not give Dr. Love a choice between two (or more) studies. Pick the one you want to do, and submit that. If you select a study that is unsuitable, Dr. Love will let you know as soon as he can, so you can quickly submit an alternative.\nIf you select an acceptable study and you are the first to “claim” it, it’s yours. Once a study is claimed, Dr. Love will post it to the OSIA claims page. If you select a study that someone else has beaten you to, you will have to submit an alternative.\n\nAll claims must be made by the deadline posted on the Course Calendar."
+  },
+  {
+    "objectID": "osia.html#your-presentation-as-first-reader",
+    "href": "osia.html#your-presentation-as-first-reader",
+    "title": "Observational Studies in Action",
+    "section": "Your Presentation as First Reader",
+    "text": "Your Presentation as First Reader\nYou will give a 12 minute presentation to the rest of the class summarizing the background, methods and key results of the study.\n\nI suggest you plan on spending at least half of the time discussing the statistical and design considerations.\nI strongly encourage you to provide useful graphs (created by you or by the original authors) to summarize key findings.\nYou will not have time to give more than a cursory explanation of the background of the study. Be aware that there are people in the room (like me) who have no formal clinical training.\n\nI encourage you to think hard about what might be most useful to us in this context."
+  },
+  {
+    "objectID": "osia.html#second-reader",
+    "href": "osia.html#second-reader",
+    "title": "Observational Studies in Action",
+    "section": "Second Reader",
+    "text": "Second Reader\nFor each OSIA study, a “second reader” will be assigned once all studies are established (so that everyone does this job once.)\n\nThe “second reader” for each study will provide 3-4 minutes of commentary on the study after the first reader’s presentation. You are expected to present 2-4 slides as second reader.\nYou’ll follow a first reader who is summarizing the whole paper. So you absolutely should not (as second reader) be providing a comprehensive summary of the entire paper.\n\nWhat you should do instead as second reader (regardless of whether you do so live or via recording) are the following things:\n\nComment on the statistical elements of the paper you felt were either especially useful or especially confusing. It’s very helpful to be specific about anything you wish was in the paper that was not\nReact to the presentation of the first reader (whose slides will be available on our Shared Drive at 1 PM Wednesday for live presentations, and the week before your work is due for the videos), in particular, amplifying anything they have in their slides that you want to emphasize, and, perhaps, addressing any questions they pose.\nFinally, be sure to leave us with your key “take away message” for the paper, in light of your review.\n\nYou could also (especially if you have specialized knowledge of the topic) provide a little additional motivation for the choices made by the researchers, as needed. But keep it to no more than 4 slides, not including a title slide with your name, an indication that you’re the second reader and the paper’s details on it."
+  },
+  {
+    "objectID": "osia.html#presentation-submission-details",
+    "href": "osia.html#presentation-submission-details",
+    "title": "Observational Studies in Action",
+    "section": "Presentation Submission Details",
+    "text": "Presentation Submission Details\n\nfor the First Reader\nSubmit final versions of the slides for your class presentation (18 slides should be a reasonable maximum) to our Shared Google Drive by 1 PM on the day before your presentation. The file name should include your name.\n\nThis will allow Dr. Love, the second reader for your article, and anyone else in the class to review your slides in advance.\n\n\n\nfor the Second Reader\nSubmit final versions of your 2-4 slides for your presentation to our Shared Google Drive by 7:30 AM on the day of your presentation. Be sure the file name includes your name. We expect you to have reviewed the slides prepared by the First Reader (posted the day before) in preparing your materials.\n\n\nAudience Role\nFor each OSIA study presented in class, everyone will read the abstracts in advance, so that we can have some understanding of what’s involved and contribute to the discussion. PDFs of the papers will be posted to the Claims page as they are approved by Dr. Love, and the Shared Google Drive will eventually contain these PDFs as well as slides for all of the in-class presentations."
+  },
+  {
+    "objectID": "lab3.html",
+    "href": "lab3.html",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Submit your work via Canvas.\nThe deadline for this Lab is specified on the Calendar.\n\nYour response should include a Quarto file (.qmd) and an HTML document that is the result of applying your Quarto file to the data we’ve provided.\nI haven’t provided a template for this Lab, but note that my sketch for Lab 3 starts by repeating everything from Lab 2, and you may want to take a similar approach.\n\n\nLab 3 again uses the canc3.csv data file we used in Lab 2. The data remain available on the 500-data web page.\nWe have completed the data collection in a simulated study of 400 subjects with cancer, where 150 have received an intervention, while the remaining 250 received usual care control. The primary aims of the study are to learn about the impact of the intervention on patient survival and whether or not the patient enters hospice.\n\n\nThe data file includes 400 observations, on 12 variables.\n\n\n\n\n\n\n\n\nVariable\nDescription\nNotes\n\n\n\n\nsubject\nStudy ID number\n1-250 are control, 251-400 are intervention\n\n\ntreated\nTreatment status\n1 = intervention (150), 0 = control (250)\n\n\nage\nPatient age\nAt study entry, Observed range: 34, 93 years\n\n\nfemale\nPatient sex\n1 = female (n = 258), 0 = male (n = 142)\n\n\nrace\nPatient’s race\n1 = Caucasian / White (n = 317), 0 = not (n = 83)\n\n\nmarried\nMarital status\nAt study entry: 1 = Married (n = 245), 0 = not (n = 155)\n\n\ntypeca\nType of cancer\n3 categories: 1 = GI/colorectal (n = 177), 2 = Lung (n = 129), 3 = GYN (n = 94).\n\n\nstprob\n5-year survival\nModel probability of 5-year survival, based on type and stage of cancer. Observed range: 0.01, 0.72\n\n\ncharlson\nCharlson score\nComorbidity index at baseline: higher scores indicate greater comorbidity. Observed range: 0-7.\n\n\necog\nECOG score\n0 = fully active, 1 = restricted regarding physically strenuous activity, 2 = ambulatory, can self-care, otherwise limited, 3 = capable of only limited self-care.\n\n\nalive\nMortality Status\nAlive at study conclusion & 1 = alive (n = 245), 0 = dead (n = 155)\n\n\nhospice\nHospice Status\nEntered hospice before death or study end & 1 = hospice (n = 143), 0 = no (n = 257)\n\n\n\nNote: You are welcome to treat ecog and charlson as either quantitative or categorical variables in developing your response.\nLab 3 asks you to run propensity score weighting (with two different ATT approaches) and propensity score subclassification for the canc3 data that you studied in Lab 3.\n\n\n\n\nExecute weighting by the inverse propensity score, using the ATT approach (weight 1 for all intervention patients and weight ps/(1-ps) for all controls.) Plot the weights you applied within the intervention and control groups. Briefly explain what’s happening.\n\n\n\nUse the twang package’s dx.wts function to start assessing balance after weighting. What is the effective sample size within the control group after weighting? Can you explain what this value means, briefly?\n\n\n\nUse the bal.table function to list (among other things) the standardized effect sizes for your covariate list. What can you conclude about the standardized differences (i.e. 100* the standardized effect sizes) across our covariates? Plot these standardized differences in a Love plot, along with the standardized differences prior to propensity adjustment that you developed in Lab 2. Are you satisfied with the balance after weighting here?\n\n\n\nEvaluate Rubin’s Rule 1 and Rule 2 for the post-weighting covariate distributions. Do the results seem satisfactory?\n\n\n\nNow use the twang package to create both the propensity scores (using generalized boosted modeling) and the ATT weights. Compare your results from Tasks 1-4 to your result here in terms of:\n\n\neffective sample size\n\n\nbalance as described by the Love plot and standardized differences\n\n\n\n\n\nSelect the weighting approach (of the two you have developed) that you prefer, and use it to find propensity-weighted estimates of the intervention effect on survival and on hospice. Your results should include a properly labeled point estimate and associated confidence interval for each outcome.\n\n\n\nNext, run an analysis that combines weighting (either approach is OK) with regression adjustment for the linear propensity score to obtain a “doubly robust” set of estimates. Use this approach to again find estimates of the intervention effect on survival and hospice.\n\n\n\nFinally, compare your results in Tasks 6 and 7 here to those obtained in Lab 2 for the hospice outcome. What conclusions can you draw?"
+  },
+  {
+    "objectID": "lab3.html#data",
+    "href": "lab3.html#data",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Lab 3 again uses the canc3.csv data file we used in Lab 2. The data remain available on the 500-data web page.\nWe have completed the data collection in a simulated study of 400 subjects with cancer, where 150 have received an intervention, while the remaining 250 received usual care control. The primary aims of the study are to learn about the impact of the intervention on patient survival and whether or not the patient enters hospice.\n\n\nThe data file includes 400 observations, on 12 variables.\n\n\n\n\n\n\n\n\nVariable\nDescription\nNotes\n\n\n\n\nsubject\nStudy ID number\n1-250 are control, 251-400 are intervention\n\n\ntreated\nTreatment status\n1 = intervention (150), 0 = control (250)\n\n\nage\nPatient age\nAt study entry, Observed range: 34, 93 years\n\n\nfemale\nPatient sex\n1 = female (n = 258), 0 = male (n = 142)\n\n\nrace\nPatient’s race\n1 = Caucasian / White (n = 317), 0 = not (n = 83)\n\n\nmarried\nMarital status\nAt study entry: 1 = Married (n = 245), 0 = not (n = 155)\n\n\ntypeca\nType of cancer\n3 categories: 1 = GI/colorectal (n = 177), 2 = Lung (n = 129), 3 = GYN (n = 94).\n\n\nstprob\n5-year survival\nModel probability of 5-year survival, based on type and stage of cancer. Observed range: 0.01, 0.72\n\n\ncharlson\nCharlson score\nComorbidity index at baseline: higher scores indicate greater comorbidity. Observed range: 0-7.\n\n\necog\nECOG score\n0 = fully active, 1 = restricted regarding physically strenuous activity, 2 = ambulatory, can self-care, otherwise limited, 3 = capable of only limited self-care.\n\n\nalive\nMortality Status\nAlive at study conclusion & 1 = alive (n = 245), 0 = dead (n = 155)\n\n\nhospice\nHospice Status\nEntered hospice before death or study end & 1 = hospice (n = 143), 0 = no (n = 257)\n\n\n\nNote: You are welcome to treat ecog and charlson as either quantitative or categorical variables in developing your response.\nLab 3 asks you to run propensity score weighting (with two different ATT approaches) and propensity score subclassification for the canc3 data that you studied in Lab 3."
+  },
+  {
+    "objectID": "lab3.html#task-1.",
+    "href": "lab3.html#task-1.",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Execute weighting by the inverse propensity score, using the ATT approach (weight 1 for all intervention patients and weight ps/(1-ps) for all controls.) Plot the weights you applied within the intervention and control groups. Briefly explain what’s happening."
+  },
+  {
+    "objectID": "lab3.html#task-2.",
+    "href": "lab3.html#task-2.",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Use the twang package’s dx.wts function to start assessing balance after weighting. What is the effective sample size within the control group after weighting? Can you explain what this value means, briefly?"
+  },
+  {
+    "objectID": "lab3.html#task-3.",
+    "href": "lab3.html#task-3.",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Use the bal.table function to list (among other things) the standardized effect sizes for your covariate list. What can you conclude about the standardized differences (i.e. 100* the standardized effect sizes) across our covariates? Plot these standardized differences in a Love plot, along with the standardized differences prior to propensity adjustment that you developed in Lab 2. Are you satisfied with the balance after weighting here?"
+  },
+  {
+    "objectID": "lab3.html#task-4.",
+    "href": "lab3.html#task-4.",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Evaluate Rubin’s Rule 1 and Rule 2 for the post-weighting covariate distributions. Do the results seem satisfactory?"
+  },
+  {
+    "objectID": "lab3.html#task-5.",
+    "href": "lab3.html#task-5.",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Now use the twang package to create both the propensity scores (using generalized boosted modeling) and the ATT weights. Compare your results from Tasks 1-4 to your result here in terms of:\n\n\neffective sample size\n\n\nbalance as described by the Love plot and standardized differences"
+  },
+  {
+    "objectID": "lab3.html#task-6.",
+    "href": "lab3.html#task-6.",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Select the weighting approach (of the two you have developed) that you prefer, and use it to find propensity-weighted estimates of the intervention effect on survival and on hospice. Your results should include a properly labeled point estimate and associated confidence interval for each outcome."
+  },
+  {
+    "objectID": "lab3.html#task-7.",
+    "href": "lab3.html#task-7.",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Next, run an analysis that combines weighting (either approach is OK) with regression adjustment for the linear propensity score to obtain a “doubly robust” set of estimates. Use this approach to again find estimates of the intervention effect on survival and hospice."
+  },
+  {
+    "objectID": "lab3.html#task-8.",
+    "href": "lab3.html#task-8.",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Finally, compare your results in Tasks 6 and 7 here to those obtained in Lab 2 for the hospice outcome. What conclusions can you draw?"
+  },
+  {
+    "objectID": "lab1.html",
+    "href": "lab1.html",
+    "title": "Lab 1",
+    "section": "",
+    "text": "Submit your work via Canvas.\nThe deadline for this Lab is specified on the Calendar.\n\nYour response should include both a Quarto file (.qmd) and an HTML document that is the result of applying your Quarto file to the data we’ve provided.\n\n\nVisit https://biolincc.nhlbi.nih.gov/teaching/ and request copies of the DIG “teaching” data set.\nTo help you get started while you wait for this information, you will find the following items on our 500-data site.\nIn the data folder:\n\na .csv file (dig1.csv) of the DIG data set you will obtain from NIH/BIOLINCC\n\nIn the sources folder:\n\na PDF of the DIG data description.\nthe original 1997 publication in the New England Journal of Medicine by the Digitalis Investigation Group.\n\nIn the templates folder:\n\na Quarto template for Lab 1.\n\nAlso, don’t forget about the Lab 0 example, which should be of some help in completing this Lab.\n\n\n\nIdentify the subjects within the dig1.csv data which have complete information on the indicator of previous myocardial infarction, PREVMI. Filter the data set to include only those subjects.\nThen select a sample of 1000 subjects from DIG study participants with known PREVMI. Specify your sampling seed (via set.seed) to be 2024500 as part of selecting your sample of 1000 subjects.\n\n\n\nThe Table 1 should describe the data according to whether or not the subject had a previous myocardial infarction (PREVMI) across each of these 12 variables.\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nTRTMT\nTreatment group (1 = DIG, 0 = Placebo)\n\n\nAGE\nAge in years\n\n\nRACE\nWhite (1) or Non-White (2)\n\n\nSEX\nMale (1) or Female (2)\n\n\nEJF_PER\nEjection Fraction (percent)\n\n\nCHESTX\nChest X-ray (CT ratio)\n\n\nBMI\nBody-Mass Index\n\n\nKLEVEL\nSerum Potassium level (mEq/l)\n\n\nCREAT\nSerum Creatinine level (mg/dl)\n\n\nCHFDUR\nApproximate Duration of CHF (mos.)\n\n\nEXERTDYS\nDyspnea on exertion (see note)\n\n\nFUNCTCLS\nCurrent NYHA Functional Class (1 = I, 2 = II, 3 = III, 4 = IV)\n\n\n\nNote that the dyspnea categories are: 0 = None or Unknown, 1 = Present, 2 = Past, 3 = Present and Past\nBe sure to correctly represent each of the categorical variables as factors, rather than in the numerical form they start in. Label your factors to ease the work for the viewer, and reduce or eliminate the need to look at a codebook. Also, be sure to accurately report whether any missing values are observed in this sample.\nNote: You’re going to have to do this again with a revised sample later in this Lab, so it’s worth it to code this in a reproducible way.\n\n\n\nBuild a logistic regression model for previous MI using the main effects of the 12 variables above. I’d call the model m1 that predicts the log odds of previous myocardial infarction (PREVMI) on the basis of the main effects of each of the twelve variables in your table above, for your sample of 1000 subjects.\nHow many observations does your model m1 actually fit results for? (This is asking for the number of subjects without any missing values, across all variables in your model.)\n\n\n\nAssuming you have at least one missing value in a predictor in your model for task 4, re-define your sample to include only the observations which are “complete cases” with no missing values on any of the key variables we’re looking at. Specify the number of subjects (&lt; 1000) that remain in your new sample.\nNow, redo both Tasks 3 and 4 to describe this new sample and use it to fit a model. Call the new model m2. Verify that missing values no longer plague this new model.\n\n\n\nUse the model (m2) you built in Task 5 to add the fitted probability of previous myocardial infarction to the sample you used to create m2.\nProduce an attractive and useful graphical summary of the distribution of fitted probabilities of previous myocardial infarction broken down into two categories by the patient’s actual PREVMI status in this sample. If needed, you should round the probabilities to two decimal places before visualizing them."
+  },
+  {
+    "objectID": "lab1.html#get-access-to-the-dig-training-data",
+    "href": "lab1.html#get-access-to-the-dig-training-data",
+    "title": "Lab 1",
+    "section": "",
+    "text": "Visit https://biolincc.nhlbi.nih.gov/teaching/ and request copies of the DIG “teaching” data set.\nTo help you get started while you wait for this information, you will find the following items on our 500-data site.\nIn the data folder:\n\na .csv file (dig1.csv) of the DIG data set you will obtain from NIH/BIOLINCC\n\nIn the sources folder:\n\na PDF of the DIG data description.\nthe original 1997 publication in the New England Journal of Medicine by the Digitalis Investigation Group.\n\nIn the templates folder:\n\na Quarto template for Lab 1.\n\nAlso, don’t forget about the Lab 0 example, which should be of some help in completing this Lab."
+  },
+  {
+    "objectID": "lab1.html#create-a-sample.",
+    "href": "lab1.html#create-a-sample.",
+    "title": "Lab 1",
+    "section": "",
+    "text": "Identify the subjects within the dig1.csv data which have complete information on the indicator of previous myocardial infarction, PREVMI. Filter the data set to include only those subjects.\nThen select a sample of 1000 subjects from DIG study participants with known PREVMI. Specify your sampling seed (via set.seed) to be 2024500 as part of selecting your sample of 1000 subjects."
+  },
+  {
+    "objectID": "lab1.html#create-a-table-1.",
+    "href": "lab1.html#create-a-table-1.",
+    "title": "Lab 1",
+    "section": "",
+    "text": "The Table 1 should describe the data according to whether or not the subject had a previous myocardial infarction (PREVMI) across each of these 12 variables.\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nTRTMT\nTreatment group (1 = DIG, 0 = Placebo)\n\n\nAGE\nAge in years\n\n\nRACE\nWhite (1) or Non-White (2)\n\n\nSEX\nMale (1) or Female (2)\n\n\nEJF_PER\nEjection Fraction (percent)\n\n\nCHESTX\nChest X-ray (CT ratio)\n\n\nBMI\nBody-Mass Index\n\n\nKLEVEL\nSerum Potassium level (mEq/l)\n\n\nCREAT\nSerum Creatinine level (mg/dl)\n\n\nCHFDUR\nApproximate Duration of CHF (mos.)\n\n\nEXERTDYS\nDyspnea on exertion (see note)\n\n\nFUNCTCLS\nCurrent NYHA Functional Class (1 = I, 2 = II, 3 = III, 4 = IV)\n\n\n\nNote that the dyspnea categories are: 0 = None or Unknown, 1 = Present, 2 = Past, 3 = Present and Past\nBe sure to correctly represent each of the categorical variables as factors, rather than in the numerical form they start in. Label your factors to ease the work for the viewer, and reduce or eliminate the need to look at a codebook. Also, be sure to accurately report whether any missing values are observed in this sample.\nNote: You’re going to have to do this again with a revised sample later in this Lab, so it’s worth it to code this in a reproducible way."
+  },
+  {
+    "objectID": "lab1.html#build-a-logistic-regression-model.",
+    "href": "lab1.html#build-a-logistic-regression-model.",
+    "title": "Lab 1",
+    "section": "",
+    "text": "Build a logistic regression model for previous MI using the main effects of the 12 variables above. I’d call the model m1 that predicts the log odds of previous myocardial infarction (PREVMI) on the basis of the main effects of each of the twelve variables in your table above, for your sample of 1000 subjects.\nHow many observations does your model m1 actually fit results for? (This is asking for the number of subjects without any missing values, across all variables in your model.)"
+  },
+  {
+    "objectID": "lab1.html#redefine-your-sample-and-rebuild-the-table-and-model.",
+    "href": "lab1.html#redefine-your-sample-and-rebuild-the-table-and-model.",
+    "title": "Lab 1",
+    "section": "",
+    "text": "Assuming you have at least one missing value in a predictor in your model for task 4, re-define your sample to include only the observations which are “complete cases” with no missing values on any of the key variables we’re looking at. Specify the number of subjects (&lt; 1000) that remain in your new sample.\nNow, redo both Tasks 3 and 4 to describe this new sample and use it to fit a model. Call the new model m2. Verify that missing values no longer plague this new model."
+  },
+  {
+    "objectID": "lab1.html#add-the-fitted-probabilities-from-task-5-to-your-data-then-plot-them-against-observed-status.",
+    "href": "lab1.html#add-the-fitted-probabilities-from-task-5-to-your-data-then-plot-them-against-observed-status.",
+    "title": "Lab 1",
+    "section": "",
+    "text": "Use the model (m2) you built in Task 5 to add the fitted probability of previous myocardial infarction to the sample you used to create m2.\nProduce an attractive and useful graphical summary of the distribution of fitted probabilities of previous myocardial infarction broken down into two categories by the patient’s actual PREVMI status in this sample. If needed, you should round the probabilities to two decimal places before visualizing them."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "500 Main Page for Spring 2026",
+    "section": "",
+    "text": "Welcome! PQHS 500 (also called CRSP 500) is taught by Professor Thomas Love in the Department of Population and Quantitative Health Sciences at Case Western Reserve University."
+  },
+  {
+    "objectID": "index.html#everything-you-need-is-linked-here",
+    "href": "index.html#everything-you-need-is-linked-here",
+    "title": "500 Main Page for Spring 2026",
+    "section": "Everything You Need Is Linked Here",
+    "text": "Everything You Need Is Linked Here\nThe menu bar includes links to just about everything you’ll need this semester, including\n\nthe course syllabus\nthe course calendar, which provides the final word on all class sessions and deadlines, and also provides links to the materials used in each class session.\ncourse assignment information, including labs, the Observational Studies in Action (OSIA) presentations of studies from the literature, and a semester-long project.\ninformation on software, including installation of R and RStudio, key R packages, downloading data (and code) you’ll need for the class.\nlinks to additional Sources (articles, etc.) that we’ll be reading this semester, or that I think might be helpful to you.\na link to the Canvas system (CWRU log-in required) we use for turning in some assignments and posting links to recordings,\ninformation about where you can get help with the course and contact Dr. Love."
+  },
+  {
+    "objectID": "index.html#what-should-i-do-before-class-begins",
+    "href": "index.html#what-should-i-do-before-class-begins",
+    "title": "500 Main Page for Spring 2026",
+    "section": "What Should I Do Before Class Begins?",
+    "text": "What Should I Do Before Class Begins?\nIn addition to exploring what’s available on this website, you should …\n\nBuy the book. During the course, we will read Paul Rosenbaum’s book Causal Inference, which is available as an e-book or in paperback for under $15. Please buy the book and get started reading it as soon as you can.\nOnce you have registered for the course, please visit our Welcome to 500 survey. You’ll need to log into Google via CWRU to access the survey, which should take about 10 minutes to complete. Please complete the survey as soon as possible.\nDownload the software. Install R and RStudio and some necessary R packages on a computer you can control throughout the semester. Details are available here."
+  },
+  {
+    "objectID": "index.html#accessing-the-431-432-class-notes",
+    "href": "index.html#accessing-the-431-432-class-notes",
+    "title": "500 Main Page for Spring 2026",
+    "section": "Accessing the 431-432 Class Notes",
+    "text": "Accessing the 431-432 Class Notes\nThe 431 Class Notes from Fall 2025 are here, and should be until 2026-06-01. The 432 Class Notes from Spring 2026 are here, and should be until 2026-06-01.\nIf you have any questions, email Dr. Love"
+  },
+  {
+    "objectID": "calendar.html",
+    "href": "calendar.html",
+    "title": "Calendar for 500: Spring 2026",
+    "section": "",
+    "text": "This Calendar serves as the final word on all deadlines, deliverables and class sessions."
+  },
+  {
+    "objectID": "calendar.html#classroom",
+    "href": "calendar.html#classroom",
+    "title": "Calendar for 500: Spring 2026",
+    "section": "Classroom",
+    "text": "Classroom\nAll in-person classes will be held on Thursdays from 9:00 - 11:15 AM in Wolstein Research Building, Room 1217. F+or directions and parking information, visit this link."
+  },
+  {
+    "objectID": "calendar.html#email-and-office-hours",
+    "href": "calendar.html#email-and-office-hours",
+    "title": "Calendar for 500: Spring 2026",
+    "section": "Email and Office Hours",
+    "text": "Email and Office Hours\n\nContact Dr. Love at thomas dot love at case dot edu if you have any questions.\nDr. Love will hold office hours after class for 30 minutes. Just let him know during class if you want to speak with him afterwards.\nFor more information, visit Contact Us."
+  },
+  {
+    "objectID": "calendar.html#readings",
+    "href": "calendar.html#readings",
+    "title": "Calendar for 500: Spring 2026",
+    "section": "Readings",
+    "text": "Readings\nDuring the course, we will read Paul Rosenbaum’s book Causal Inference (abbreviated PRR CI below), which is available as an e-book or in paperback for under $15. Please obtain the book before our first class on 2026-01-15, and get started reading it as soon as possible."
+  },
+  {
+    "objectID": "calendar.html#january-2026",
+    "href": "calendar.html#january-2026",
+    "title": "Calendar for 500: Spring 2026",
+    "section": "January 2026",
+    "text": "January 2026\n\n\n\nClass\nDate\nDescription\n\n\n\n\nClass 1\n01-15\nRandomized Trials and Observational Studies: Motivation\n\n\nLab 0\n01-20\nWork through Lab 0 before Class 2 (nothing to submit)\n\n\nClass 2\n01-22\nSTROBE, HRT, Assessing Causal Effects, Propensity Score\n\n\nLab 1\n01-27\nLab 1 is due to Canvas at noon\n\n\nClass 3\n01-29\nBuilding the PS Model, Match/Stratify/Adjust, Love Plots"
+  },
+  {
+    "objectID": "calendar.html#february-2026",
+    "href": "calendar.html#february-2026",
+    "title": "Calendar for 500: Spring 2026",
+    "section": "February 2026",
+    "text": "February 2026\n\n\n\nClass\nDate\nDescription\n\n\n\n\nClass 4\n02-05\nDoing all of this in R: The toy example\n\n\nOSIA\n02-10\nEmail OSIA selections to Dr. Love by Noon.\n\n\nClass 5\n02-12\nThe lindner example, The dm2200 example, Choosing a Matching Approach\n\n\nNo class\n02-19\nFocused OSIA and Project development time\n\n\nLab 2\n02-24\nLab 2 is due to Canvas at noon\n\n\nClass 6\n02-26\nRubin (2001) & Rubin’s Rules, Austin & Mamdani"
+  },
+  {
+    "objectID": "calendar.html#march-2026",
+    "href": "calendar.html#march-2026",
+    "title": "Calendar for 500: Spring 2026",
+    "section": "March 2026",
+    "text": "March 2026\n\n\n\nClass\nDate\nDescription\n\n\n\n\nProject\n03-03\nProject Proposal due to Canvas at noon\n\n\nClass 7\n03-05\nThe SUPPORT Study, Sensitivity Analyses after Matching\n\n\nNo class\n03-12\nSpring Break\n\n\nLab 3\n03-17\nLab 3 is due to Canvas at noon\n\n\nClass 8\n03-19\nExtensions to Matching, Instrumental Variables, Scheduling Projects\n\n\nLab 3\n03-24\nLab 4 is due to Canvas at noon\n\n\nClass 9\n03-26\nOSIA presentations (group 1), Other Items TBA"
+  },
+  {
+    "objectID": "calendar.html#april-2026",
+    "href": "calendar.html#april-2026",
+    "title": "Calendar for 500: Spring 2026",
+    "section": "April 2026",
+    "text": "April 2026\n\n\n\nClass\nDate\nDescription\n\n\n\n\nClass 10\n04-02\nOSIA presentations (group 2), Other Items TBA\n\n\nClass 11\n04-09\nMore Advanced Topics and Project Discussion\n\n\nProjects\n04-16\nProject Presentations, session 1\n\n\nProjects\n04-23\nProject Presentations, session 2 and Course Wrap-Up\n\n\nDeadline\n04-28\nAll Project Materials due to Canvas at noon.\n\n\n\n\nWhen prompted via email by the University (in late April), visit https://webapps.case.edu/courseevals/ to complete the 500 course evaluation."
+  },
+  {
+    "objectID": "calendar.html#when-will-the-materials-disappear",
+    "href": "calendar.html#when-will-the-materials-disappear",
+    "title": "Calendar for 500: Spring 2026",
+    "section": "When will the materials disappear?",
+    "text": "When will the materials disappear?\nOn or slightly after 2026-06-01."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "If you have a question at any time, send it by email to Dr. Love at thomas dot love at case dot edu.\nI will generally be available for a half-hour after class on Thursdays for informal office hours. Just let me know during class if you’re planning to chat with me after class.\nAdditional information about me is part of the Course Syllabus."
+  },
+  {
+    "objectID": "lab0.html",
+    "href": "lab0.html",
+    "title": "Lab 0",
+    "section": "",
+    "text": "500 Lab 0 is an Example with instructions, meant to help you get started on other Labs. Your task for Lab 0 is to read over these materials and see if they help you answer the questions that arise in generating your responses to your actual Lab assignments (Lab 1 - Lab 4) this semester. It’s not a bad idea to try to build a response yourself, and then check it against my solution, but there’s nothing for you to turn in here.\nThis work uses a data set called lab0.csv (which is a comma-separated .csv file suitable for reading into R.) You’ll find this in the data folder at our 500-data web site.\n\n\nWe have provided a template for building a response to Lab 0, specifically a Quarto file containing some key bits of code which you can edit to produce a response. You’ll find the Lab 0 template in the templates folder at our 500-data web site.\n\n\n\nWe have also provided an Answer Sketch for Lab 0, including both the Quarto file we used to create the sketch and the resulting HTML file it generates. You’ll find those files in the Labs section of our Shared Google Drive."
+  },
+  {
+    "objectID": "lab0.html#template-for-lab-0",
+    "href": "lab0.html#template-for-lab-0",
+    "title": "Lab 0",
+    "section": "",
+    "text": "We have provided a template for building a response to Lab 0, specifically a Quarto file containing some key bits of code which you can edit to produce a response. You’ll find the Lab 0 template in the templates folder at our 500-data web site."
+  },
+  {
+    "objectID": "lab0.html#answer-sketch-for-lab-0",
+    "href": "lab0.html#answer-sketch-for-lab-0",
+    "title": "Lab 0",
+    "section": "",
+    "text": "We have also provided an Answer Sketch for Lab 0, including both the Quarto file we used to create the sketch and the resulting HTML file it generates. You’ll find those files in the Labs section of our Shared Google Drive."
+  },
+  {
+    "objectID": "lab0.html#the-data",
+    "href": "lab0.html#the-data",
+    "title": "Lab 0",
+    "section": "The Data",
+    "text": "The Data\nThe lab0.csv data file is available on the 500-data web site. Remember to download the raw version of the .csv file.\nThe file includes 135 subjects, the first 40 of whom have received a particular treatment and the remaining 95 of whom have not received it.\n\nAlso provided are five meaningful predictors of treatment status, labeled (imaginatively) cov1, cov2, cov3, cov4 and cov5.\n\nCovariates 1-4 are continuous covariates, gathered at varying levels of precision. The cov5 variable is an indicator of whether the subject has a particular characteristic (1 = yes, 0 = no.)\nHappily, there are no missing values in the data."
+  },
+  {
+    "objectID": "lab0.html#tasks",
+    "href": "lab0.html#tasks",
+    "title": "Lab 0",
+    "section": "Tasks",
+    "text": "Tasks\n\nBuild a logistic regression model using the main effects of the five predictors to predict treatment status.\n\nUse R to add two columns to the data set, specifically the fitted probability (according to your logistic regression model) of being treated, and the linear component of the logistic regression model (the logit of the probability of being treated.)\n\nNext, summarize the resulting probabilities across the untreated and treated patients in an appropriate and attractive manner.\n\nRaw R code is rarely attractive on its face - build something brief, effective and appropriate for a presentation.\nOf course, we’d expect that the average probability of being treated will be higher in the patients who are actually treated. Verify that this is the case, in a short numerical and graphical summary of your findings.\n\nHow much overlap is there between the fitted probabilities of the treated patients and the fitted probabilities of the untreated patients?\n\nA graph of this overlap (perhaps a boxplot, but a better option would be a dot chart or density plot of some sort; creativity is welcome here) is crucial, supplemented by a short written description of your findings."
+  },
+  {
+    "objectID": "lab0.html#r-setup",
+    "href": "lab0.html#r-setup",
+    "title": "Lab 0",
+    "section": "R Setup",
+    "text": "R Setup\nTo start, I’ll request that R sets its responses to be rendered without the default pair of hashtags. Next, I’ll load two R packages that will help me with these instructions. Then, I’ll load the data, and take a look at the variables.\n\nknitr::opts_chunk$set(comment = NA)\n\nlibrary(janitor)\nlibrary(tidyverse)\n\nurl_0 &lt;- \"https://raw.githubusercontent.com/THOMASELOVE/500-data/master/data/lab0.csv\"\n\nlab0 &lt;- read_csv(url_0, show_col_types = FALSE) |&gt;\n    mutate(subject = as.character(subject),\n           treatment = factor(treatment))\n\ndim(lab0)\n\n[1] 135   7"
+  },
+  {
+    "objectID": "lab0.html#a-hint-for-task-1",
+    "href": "lab0.html#a-hint-for-task-1",
+    "title": "Lab 0",
+    "section": "A Hint for Task 1",
+    "text": "A Hint for Task 1\nPartial R code you might use to do this work follows…\n\nm1 &lt;- glm((treatment==\"Treated\") ~ cov1 + cov2 + cov3 + cov4 + cov5,\n          family=binomial(), data=lab0)\n\nlab0$linpred &lt;- m1$linear.predictors\nlab0$prob &lt;- m1$fitted.values\n\nlab0 # note new columns\n\n# A tibble: 135 × 9\n   subject treatment  cov1  cov2  cov3  cov4  cov5 linpred  prob\n   &lt;chr&gt;   &lt;fct&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;dbl&gt;\n 1 101     Treated    38.4  53.7    13    19     0  -0.602 0.354\n 2 102     Treated    39.1  48.5    15    21     0  -0.676 0.337\n 3 103     Treated    67.3  53.9    11    16     0   0.759 0.681\n 4 104     Treated    61.5  52.2    18    21     1   0.404 0.600\n 5 105     Treated    66.4  55.6    19    22     0  -0.392 0.403\n 6 106     Treated    57.1  44.4    24    33     0  -0.658 0.341\n 7 107     Treated    50.3  66.8    15    16     1  -0.224 0.444\n 8 108     Treated    61.7  68.9    15    26     0   0.104 0.526\n 9 109     Treated    44.7  54.2    19    18     1  -0.742 0.322\n10 110     Treated    56.9  36.8    16    24     1   1.18  0.765\n# ℹ 125 more rows"
+  },
+  {
+    "objectID": "lab0.html#be-sure-to-include-session-information",
+    "href": "lab0.html#be-sure-to-include-session-information",
+    "title": "Lab 0",
+    "section": "Be sure to include Session Information",
+    "text": "Be sure to include Session Information\nPlease display your session information at the end of your submission, as shown below.\n\nxfun::session_info()\n\nR version 4.5.2 (2025-10-31 ucrt)\nPlatform: x86_64-w64-mingw32/x64\nRunning under: Windows 11 x64 (build 26200)\n\nLocale:\n  LC_COLLATE=English_United States.utf8 \n  LC_CTYPE=English_United States.utf8   \n  LC_MONETARY=English_United States.utf8\n  LC_NUMERIC=C                          \n  LC_TIME=English_United States.utf8    \n\nPackage version:\n  askpass_1.2.1       backports_1.5.0     base64enc_0.1.3    \n  bit_4.6.0           bit64_4.6.0-1       blob_1.2.4         \n  broom_1.0.11        bslib_0.9.0         cachem_1.1.0       \n  callr_3.7.6         cellranger_1.1.0    cli_3.6.5          \n  clipr_0.8.0         compiler_4.5.2      conflicted_1.2.0   \n  cpp11_0.5.2         crayon_1.5.3        curl_7.0.0         \n  data.table_1.18.0   DBI_1.2.3           dbplyr_2.5.1       \n  digest_0.6.39       dplyr_1.1.4         dtplyr_1.3.2       \n  evaluate_1.0.5      farver_2.1.2        fastmap_1.2.0      \n  fontawesome_0.5.3   forcats_1.0.1       fs_1.6.6           \n  gargle_1.6.0        generics_0.1.4      ggplot2_4.0.1      \n  glue_1.8.0          googledrive_2.1.2   googlesheets4_1.1.2\n  graphics_4.5.2      grDevices_4.5.2     grid_4.5.2         \n  gtable_0.3.6        haven_2.5.5         highr_0.11         \n  hms_1.1.4           htmltools_0.5.9     htmlwidgets_1.6.4  \n  httr_1.4.7          ids_1.0.1           isoband_0.3.0      \n  janitor_2.2.1       jquerylib_0.1.4     jsonlite_2.0.0     \n  knitr_1.51          labeling_0.4.3      lifecycle_1.0.5    \n  lubridate_1.9.4     magrittr_2.0.4      memoise_2.0.1      \n  methods_4.5.2       mime_0.13           modelr_0.1.11      \n  openssl_2.3.4       otel_0.2.0          parallel_4.5.2     \n  pillar_1.11.1       pkgconfig_2.0.3     prettyunits_1.2.0  \n  processx_3.8.6      progress_1.2.3      ps_1.9.1           \n  purrr_1.2.0         R6_2.6.1            ragg_1.5.0         \n  rappdirs_0.3.3      RColorBrewer_1.1-3  readr_2.1.6        \n  readxl_1.4.5        rematch_2.0.0       rematch2_2.1.2     \n  reprex_2.1.1        rlang_1.1.6         rmarkdown_2.30     \n  rstudioapi_0.17.1   rvest_1.0.5         S7_0.2.1           \n  sass_0.4.10         scales_1.4.0        selectr_0.5.1      \n  snakecase_0.11.1    stats_4.5.2         stringi_1.8.7      \n  stringr_1.6.0       sys_3.4.3           systemfonts_1.3.1  \n  textshaping_1.0.4   tibble_3.3.0        tidyr_1.3.2        \n  tidyselect_1.2.1    tidyverse_2.0.0     timechange_0.3.0   \n  tinytex_0.58        tools_4.5.2         tzdb_0.5.0         \n  utf8_1.2.6          utils_4.5.2         uuid_1.2.1         \n  vctrs_0.6.5         viridisLite_0.4.2   vroom_1.6.7        \n  withr_3.0.2         xfun_0.55           xml2_1.5.1         \n  yaml_2.3.12"
+  },
+  {
+    "objectID": "lab2.html",
+    "href": "lab2.html",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Submit your work via Canvas.\nThe deadline for this Lab is specified on the Calendar.\n\nYour response should include a Quarto file (.qmd) and an HTML document that is the result of applying your Quarto file to the data we’ve provided.\nA Quarto template for Lab 2 is found in the templates section of our 500-data page.\n\n\nLab 2 uses the canc3.csv data file, which is available in the data folder on the 500-data page.\nWe have completed the data collection in a simulated study of 400 subjects with cancer, where 150 have received an intervention, while the remaining 250 received usual care control. The primary aims of the study are to learn about the impact of the intervention on patient survival and whether or not the patient enters hospice.\n\n\nThe data file includes 400 observations, on 12 variables.\n\n\n\n\n\n\n\n\nVariable\nDescription\nNotes\n\n\n\n\nsubject\nStudy ID number\n1-250 are control, 251-400 are intervention\n\n\ntreated\nTreatment status\n1 = intervention (150), 0 = control (250)\n\n\nage\nPatient age\nAt study entry, Observed range: 34, 93 years\n\n\nfemale\nPatient sex\n1 = female (n = 258), 0 = male (n = 142)\n\n\nrace\nPatient’s race\n1 = Caucasian / White (n = 317), 0 = not (n = 83)\n\n\nmarried\nMarital status\nAt study entry: 1 = Married (n = 245), 0 = not (n = 155)\n\n\ntypeca\nType of cancer\n3 categories: 1 = GI/colorectal (n = 177), 2 = Lung (n = 129), 3 = GYN (n = 94).\n\n\nstprob\n5-year survival\nModel probability of 5-year survival, based on type and stage of cancer. Observed range: 0.01, 0.72\n\n\ncharlson\nCharlson score\nComorbidity index at baseline: higher scores indicate greater comorbidity. Observed range: 0-7.\n\n\necog\nECOG score\n0 = fully active, 1 = restricted regarding physically strenuous activity, 2 = ambulatory, can self-care, otherwise limited, 3 = capable of only limited self-care.\n\n\nalive\nMortality Status\nAlive at study conclusion & 1 = alive (n = 245), 0 = dead (n = 155)\n\n\nhospice\nHospice Status\nEntered hospice before death or study end & 1 = hospice (n = 143), 0 = no (n = 257)\n\n\n\nNote: You are welcome to treat ecog and charlson as either quantitative or categorical variables in developing your response.\n\n\n\n\nIgnoring the covariate information, provide an appropriate (unadjusted) estimate (with point estimate and 95% confidence interval) of the effect of the intervention on each of the two binary outcomes; first survival, and then hospice entry. Be sure to describe the effect in English sentences, so that both the direction and magnitude are clear, and also be sure to specify the method you used in generating your estimates.\n\n\n\nNext, fit a propensity score model to the data, using the eight pieces of covariate information, including age, gender, race, marital status, cancer type (which must be treated in R as a factor rather than just a continuous predictor) the model survival probability, Charlson index and ECOG. Do not include interactions between terms.\n\n\n\nEvaluate Rubin’s Rule 1 and Rubin’s Rule 2 for the data taken as a whole. What can you conclude about the balance across the two exposure groups prior to using the propensity score? What do these results suggest about your model in Task 1?\n\n\n\nUse direct adjustment for the (logit of) the propensity score in a logistic regression model for the hospice outcome to evaluate the intervention’s effect on hospice entry, developing a point estimate (this should be an odds ratio) and a 95% confidence interval.\n\n\n\nIn our first propensity score matching attempt with the canc3 data, we’ll apply a 1:1 match without replacement. Do the matching, and then evaluate the balance associated with this approach, as follows.\n\n\nEvaluate the degree of covariate imbalance before and after propensity score matching for each of the eight covariates and for the (linear and raw) propensity score. Do so by plotting the standardized differences. Your plot should include standardized differences that identify the three cancer types (one remaining as baseline) individually, one each for any other covariates you treat as quantitative, and an appropriate set of indicators for any others you treat as categorical, plus one for the linear propensity score, and one for the raw propensity score.\n\n\n\nEvaluate the balance imposed by your 1:1 match via calculation of Rubin’s Rule 1 and Rule 2 results, and comparing them to our results obtained prior to propensity adjustment in Task 3.\n\n\n\nFinally, find a point estimate (and 95% confidence interval) for the effect of the treatment on the hospice outcome, based on your 1:1 match on the propensity score. Since the outcomes are binary, you should be using a conditional logistic regression to establish odds ratio estimates, while accounting for the pairs.\n\n\n\n\nCompare your unadjusted (Task 1), propensity score-adjusted (by regression: Task 4) and propensity matching (Task 5) estimates of the effect of the intervention on the hospice outcome in a table (or better, graph.) What can you conclude?"
+  },
+  {
+    "objectID": "lab2.html#data",
+    "href": "lab2.html#data",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Lab 2 uses the canc3.csv data file, which is available in the data folder on the 500-data page.\nWe have completed the data collection in a simulated study of 400 subjects with cancer, where 150 have received an intervention, while the remaining 250 received usual care control. The primary aims of the study are to learn about the impact of the intervention on patient survival and whether or not the patient enters hospice.\n\n\nThe data file includes 400 observations, on 12 variables.\n\n\n\n\n\n\n\n\nVariable\nDescription\nNotes\n\n\n\n\nsubject\nStudy ID number\n1-250 are control, 251-400 are intervention\n\n\ntreated\nTreatment status\n1 = intervention (150), 0 = control (250)\n\n\nage\nPatient age\nAt study entry, Observed range: 34, 93 years\n\n\nfemale\nPatient sex\n1 = female (n = 258), 0 = male (n = 142)\n\n\nrace\nPatient’s race\n1 = Caucasian / White (n = 317), 0 = not (n = 83)\n\n\nmarried\nMarital status\nAt study entry: 1 = Married (n = 245), 0 = not (n = 155)\n\n\ntypeca\nType of cancer\n3 categories: 1 = GI/colorectal (n = 177), 2 = Lung (n = 129), 3 = GYN (n = 94).\n\n\nstprob\n5-year survival\nModel probability of 5-year survival, based on type and stage of cancer. Observed range: 0.01, 0.72\n\n\ncharlson\nCharlson score\nComorbidity index at baseline: higher scores indicate greater comorbidity. Observed range: 0-7.\n\n\necog\nECOG score\n0 = fully active, 1 = restricted regarding physically strenuous activity, 2 = ambulatory, can self-care, otherwise limited, 3 = capable of only limited self-care.\n\n\nalive\nMortality Status\nAlive at study conclusion & 1 = alive (n = 245), 0 = dead (n = 155)\n\n\nhospice\nHospice Status\nEntered hospice before death or study end & 1 = hospice (n = 143), 0 = no (n = 257)\n\n\n\nNote: You are welcome to treat ecog and charlson as either quantitative or categorical variables in developing your response."
+  },
+  {
+    "objectID": "lab2.html#task-1.",
+    "href": "lab2.html#task-1.",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Ignoring the covariate information, provide an appropriate (unadjusted) estimate (with point estimate and 95% confidence interval) of the effect of the intervention on each of the two binary outcomes; first survival, and then hospice entry. Be sure to describe the effect in English sentences, so that both the direction and magnitude are clear, and also be sure to specify the method you used in generating your estimates."
+  },
+  {
+    "objectID": "lab2.html#task-2.",
+    "href": "lab2.html#task-2.",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Next, fit a propensity score model to the data, using the eight pieces of covariate information, including age, gender, race, marital status, cancer type (which must be treated in R as a factor rather than just a continuous predictor) the model survival probability, Charlson index and ECOG. Do not include interactions between terms."
+  },
+  {
+    "objectID": "lab2.html#task-3.",
+    "href": "lab2.html#task-3.",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Evaluate Rubin’s Rule 1 and Rubin’s Rule 2 for the data taken as a whole. What can you conclude about the balance across the two exposure groups prior to using the propensity score? What do these results suggest about your model in Task 1?"
+  },
+  {
+    "objectID": "lab2.html#task-4.",
+    "href": "lab2.html#task-4.",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Use direct adjustment for the (logit of) the propensity score in a logistic regression model for the hospice outcome to evaluate the intervention’s effect on hospice entry, developing a point estimate (this should be an odds ratio) and a 95% confidence interval."
+  },
+  {
+    "objectID": "lab2.html#task-5.",
+    "href": "lab2.html#task-5.",
+    "title": "Lab 2",
+    "section": "",
+    "text": "In our first propensity score matching attempt with the canc3 data, we’ll apply a 1:1 match without replacement. Do the matching, and then evaluate the balance associated with this approach, as follows.\n\n\nEvaluate the degree of covariate imbalance before and after propensity score matching for each of the eight covariates and for the (linear and raw) propensity score. Do so by plotting the standardized differences. Your plot should include standardized differences that identify the three cancer types (one remaining as baseline) individually, one each for any other covariates you treat as quantitative, and an appropriate set of indicators for any others you treat as categorical, plus one for the linear propensity score, and one for the raw propensity score.\n\n\n\nEvaluate the balance imposed by your 1:1 match via calculation of Rubin’s Rule 1 and Rule 2 results, and comparing them to our results obtained prior to propensity adjustment in Task 3.\n\n\n\nFinally, find a point estimate (and 95% confidence interval) for the effect of the treatment on the hospice outcome, based on your 1:1 match on the propensity score. Since the outcomes are binary, you should be using a conditional logistic regression to establish odds ratio estimates, while accounting for the pairs."
+  },
+  {
+    "objectID": "lab2.html#task-6.",
+    "href": "lab2.html#task-6.",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Compare your unadjusted (Task 1), propensity score-adjusted (by regression: Task 4) and propensity matching (Task 5) estimates of the effect of the intervention on the hospice outcome in a table (or better, graph.) What can you conclude?"
+  },
+  {
+    "objectID": "lab4.html",
+    "href": "lab4.html",
+    "title": "Lab 4",
+    "section": "",
+    "text": "Submit your work via Canvas.\nThe deadline for this Lab is specified on the Calendar.\n\nYour response should include a Quarto file (.qmd) and an HTML document that is the result of applying your Quarto file to the data we’ve provided. I haven’t provided a template for this Lab.\n\n\nLab 4 returns to the dig1.csv data file we used in Lab 1. The data remain available on the 500-data web page Refer to Lab 1 for more details on the data set and supplementary files about the DIG study.\nThe idea here is to develop an analysis of the data in the DIG teaching data set. Choose a population (based on the available DIG data or an appropriate subset), outcome, a binary indicator of treatment/exposure group and a set of between 10 and 30 covariates, then produce a Quarto and HTML file combination which addresses Tasks 1-5 below.\n\n\n\nBuild and display an appropriate Table 1 comparing the treatment groups on the covariates of interest.\n\n\n\nBuild and describe an unadjusted analysis of the impact of the treatment on the outcome. This should yield both a point estimate and uncertainty interval.\n\n\n\nBuild a complete analysis using 1:1 matching including a balance assessment pre- and post-matching, and an appropriate matched-set estimate and uncertainty interval for the causal effect of treatment on outcome, in the population you have defined, accompanied by a sensitivity analysis if appropriate, or a smart stability analysis if a sensitivity analysis isn’t appropriate.\n\n\n\nBuild a complete analysis using propensity weighting (and regression adjustment, if you like), including a balance assessment pre- and post-matching, and an appropriate propensity-weighted estimate and uncertainty interval for the causal effect of treatment on outcome, in the population you have defined.\n\n\n\nBuild and describe (in complete English sentences) a comparison of the results obtained from Tasks 2, 3 and 4. Describe any concerns you have about the relative merits of your various causal effect estimates."
+  },
+  {
+    "objectID": "lab4.html#data",
+    "href": "lab4.html#data",
+    "title": "Lab 4",
+    "section": "",
+    "text": "Lab 4 returns to the dig1.csv data file we used in Lab 1. The data remain available on the 500-data web page Refer to Lab 1 for more details on the data set and supplementary files about the DIG study.\nThe idea here is to develop an analysis of the data in the DIG teaching data set. Choose a population (based on the available DIG data or an appropriate subset), outcome, a binary indicator of treatment/exposure group and a set of between 10 and 30 covariates, then produce a Quarto and HTML file combination which addresses Tasks 1-5 below."
+  },
+  {
+    "objectID": "lab4.html#task-1.",
+    "href": "lab4.html#task-1.",
+    "title": "Lab 4",
+    "section": "",
+    "text": "Build and display an appropriate Table 1 comparing the treatment groups on the covariates of interest."
+  },
+  {
+    "objectID": "lab4.html#task-2.",
+    "href": "lab4.html#task-2.",
+    "title": "Lab 4",
+    "section": "",
+    "text": "Build and describe an unadjusted analysis of the impact of the treatment on the outcome. This should yield both a point estimate and uncertainty interval."
+  },
+  {
+    "objectID": "lab4.html#task-3.",
+    "href": "lab4.html#task-3.",
+    "title": "Lab 4",
+    "section": "",
+    "text": "Build a complete analysis using 1:1 matching including a balance assessment pre- and post-matching, and an appropriate matched-set estimate and uncertainty interval for the causal effect of treatment on outcome, in the population you have defined, accompanied by a sensitivity analysis if appropriate, or a smart stability analysis if a sensitivity analysis isn’t appropriate."
+  },
+  {
+    "objectID": "lab4.html#task-4.",
+    "href": "lab4.html#task-4.",
+    "title": "Lab 4",
+    "section": "",
+    "text": "Build a complete analysis using propensity weighting (and regression adjustment, if you like), including a balance assessment pre- and post-matching, and an appropriate propensity-weighted estimate and uncertainty interval for the causal effect of treatment on outcome, in the population you have defined."
+  },
+  {
+    "objectID": "lab4.html#task-5.",
+    "href": "lab4.html#task-5.",
+    "title": "Lab 4",
+    "section": "",
+    "text": "Build and describe (in complete English sentences) a comparison of the results obtained from Tasks 2, 3 and 4. Describe any concerns you have about the relative merits of your various causal effect estimates."
+  },
+  {
+    "objectID": "proj500.html",
+    "href": "proj500.html",
+    "title": "Course Project Instructions",
+    "section": "",
+    "text": "As a substantial part of your course grade, you will complete a small observational study comparing two exposures on one or more outcome(s) in time to generate an abstract, give a presentation, and complete a thorough written discussion using Quarto.\n\nIt is hard to learn statistics (or anything else) passively; concurrent theory and application are essential1.\n\nThere is more to a statistical application than the analysis of a canned data set, even a good canned data set. George Box noted that “statistics has no reason for existence except as the catalyst for investigation and discovery.” Expert clinical researchers and statisticians repeatedly emphasize how important it is that people be able to write well, present clearly, work to solve problems, and show initiative. This project assignment is designed to help you develop your abilities and have a memorable experience.\nPlease don’t be shy about asking for help sooner, rather than later. Options narrow as an investigation progresses. The earlier we hear about a problem, the more likely we will be able to help solve it. Contact Us with your project questions at any time.\n\nAll deadlines related to the Project are provided on the Course Calendar.\n\n\n\nI want you to establish relevant and interesting research questions related to a problem of interest, procure data to help answer the questions and pose others, and communicate your results to an audience of your peers. You will be responsible for the following elements of a project.\n\nThe Project Proposal for which you will submit to Canvas an initial draft for my review, and perhaps a second draft responding to my review and providing more details if necessary.\n\n\nOnce you have your data, you will probably want to look at the Analysis Tips we’ve gathered.\n\n\nThe Final Materials. These include:\n\nAn abstract and your presentation slides to our Shared Google Drive 24 hours prior to your presentation. Be sure your file names include your name.\nAt the final deadline specified on the Calendar you will submit to Canvas your Abstract and Slides (with any revisions you decide to make in light of the feedback you receive). In addition, you will also submit a data set, Quarto file and HTML results document (including a discussion) that shows all of your work that motivated your slides."
+  },
+  {
+    "objectID": "proj500.html#deliverables",
+    "href": "proj500.html#deliverables",
+    "title": "Course Project Instructions",
+    "section": "",
+    "text": "I want you to establish relevant and interesting research questions related to a problem of interest, procure data to help answer the questions and pose others, and communicate your results to an audience of your peers. You will be responsible for the following elements of a project.\n\nThe Project Proposal for which you will submit to Canvas an initial draft for my review, and perhaps a second draft responding to my review and providing more details if necessary.\n\n\nOnce you have your data, you will probably want to look at the Analysis Tips we’ve gathered.\n\n\nThe Final Materials. These include:\n\nAn abstract and your presentation slides to our Shared Google Drive 24 hours prior to your presentation. Be sure your file names include your name.\nAt the final deadline specified on the Calendar you will submit to Canvas your Abstract and Slides (with any revisions you decide to make in light of the feedback you receive). In addition, you will also submit a data set, Quarto file and HTML results document (including a discussion) that shows all of your work that motivated your slides."
+  },
+  {
+    "objectID": "proj500.html#submission-specifications",
+    "href": "proj500.html#submission-specifications",
+    "title": "Course Project Instructions",
+    "section": "Submission Specifications",
+    "text": "Submission Specifications\nThe Proposal is submitted via Canvas. The deadline is specified on the Course Calendar. You should have a final version of your data set by the time you submit your proposal."
+  },
+  {
+    "objectID": "proj500.html#what-should-the-proposal-look-like",
+    "href": "proj500.html#what-should-the-proposal-look-like",
+    "title": "Course Project Instructions",
+    "section": "What should the proposal look like?",
+    "text": "What should the proposal look like?\nYour proposal will be a 3-4 page summary (moving towards an abstract) of your proposed study.\n\nBegin with a good, interesting, thought-provoking title. You will work hard on this: please don’t call it “Observational Studies Project.” A vast majority of your intended audience will never get past the title and abstract of the final report. Get off to a good start. Avoid deadwood like “The Study of…” or “An Analysis of…” and keep your caveats out of the title sufficiently that you can express the title in no more than 80 characters, perhaps including a subtitle if more granularity is necessary.\nNext, provide your name and the names of any co-investigators (in which case you should indicate their role in this work.) If you’re doing this work as part of your work at an institution other than CWRU, specify that, too.\n\n\nOverview (Title, Investigators, 8 key sections)\nAfter your title and investigator information, there are eight sections I will be looking for, and I suggest you use the following headings:\n\nBackground\nObjective and Research Question\nParticipants\nThe Exposure\nThe Outcome(s)\nThe Covariates\nGetting the Data Set\nPlanned Methods\n\nThat should be sufficient for the first draft of your proposal, and in the final draft, you’ll be reacting to my requests for improvements, and that may lead to some changes in how you decide to present the results.\n\n\nDetailed Instructions for each section of the Proposal\nYour proposal should include all of the following…\n\nNo more than a paragraph (and, perhaps, one figure) of background information, meant to help me understand the study’s objective. Use words I know.\nAn objective or list of study objectives, which leads directly to the research question or questions.\n\nBe sure you specify the population, key outcome(s), and exposure/treatment (as well as, perhaps, some of the covariates of interest) in developing your objective.\nThis is a SMALL study. Do not boil the ocean.\nFollow your objective with a careful statement of the research question(s), with indications about anticipated directions for any hypotheses.\nPlease state research questions as questions. Questions end with question marks.\nNo more than two research questions, please.\n\nA brief description of the participants, including key inclusion or exclusion criteria, as well as the size and style of the sample (i.e. 523 consecutive male patients between November and May with burns over more than 15% of their bodies)\n\nBe sure also to tell me where the subjects come from, and how they’re selected to be in the study, as well. You’re specifying at the least the setting in which the data were collected.\nBe sure to provide an appropriate classification of the type of research design (i.e. prospective cohort, etc.)\nYour sample size should include somewhere between 250 and 2,500 subjects. You need at least 100 observations in each of the two exposure groups.\nIf your study begins with more than 2500 subjects, you will take a random sample of subjects so that your total sample size is around 2,500 or so for the project. You can always drop back to a more complete sample later, if you code this sensibly, but if you have more than about 2,500 observations, your R code development will get very slow for some of the things you need to do.\n\nA brief but sufficient description of the intervention or exposure of interest. You need to tell me what the two groups of subjects are that you intend to compare, and how many subjects are in each of those groups.\n\nThe exposure group with smaller sample size should be your “intervention” group and membership in this group is what you will predict in your propensity score model.\nIf you have roughly equal numbers of subjects in your “intervention” and “control” groups, then 1:1 matching won’t work very well (unless you do it with replacement) so you may wind up needing to consider other matching approaches. For purposes of this project, if you are in a setting where you can choose your sample sizes, make them imbalanced, perhaps with a ratio of 1 “intervention” subject for every 3-5 “control” subjects.\nSubjects with missing data on either the key exposure (that divides the sample into groups) or the outcome of interest will need to be dropped from your work, and thus should not be counted here.\nBe sure to describe how the exposure is allocated to participants.\n\nA listing of (at most two) outcome measures, which should be clearly linked to the objectives.\n\nYou must be comparing two groups/treatments/exposures on at most two outcomes, one of which must be identified in advance as primary.\nYour outcomes must be either binary, quantitative or time-to-event. A single outcome is fine. Two is the maximum.\nMake sure you tell me what the primary outcome is that you wish to compare subjects on, and how that variable is measured, and also specify what type of variable (binary/quantitative/time-to-event) it is.\nThis isn’t a study where you will have time to “boil the ocean” - you’re doing several analyses of one data set to look at one key relationship.\nHearing about a secondary outcome (or potential other options for the primary outcome) is welcome, but you will eventually need to limit yourself to no more than two outcomes, total, in this study. Provide similar information for secondary outcomes as for primary ones.\nBe sure to indicate clearly why these outcome measures are important. Do not assume that I know.\nAlso, please indicate clearly how these outcome measures will be obtained and (one hopes) validated.\n\nA list of the covariates you intend to use in building your propensity score models. Provide enough information so that I can easily understand the answers to the following questions:\n\nWhat is the nature of the covariate information - what variables do you have, specifically, that you propose to include in your Table 1 comparing the two groups, and in the propensity model?\nAre they all measured PRIOR to the decision to apply or not apply the exposure of interest to patients?\nIdeally, you’d prepare the necessary Table 1 that specifies this information broken down into your two treatment/exposure groups as part of your second draft of the proposal, if you have the data. We don’t need the full thing in the first draft, though.\n\nA paragraph or two describing the mechanism that allows you to access the data set, and confirming that you either have it or describing why you will certainly be able to have it well before the April 1 deadline for data acquisition.\n\nIf you don’t have the data, be sure to tell me what the steps are that need to happen to get the data in your hands.\nYou should also specify the situation in terms of IRB/HIPAA concerns, briefly, or make it clear to me that this isn’t an issue.\nInclude very specific information about how you got the data, and how I can get the data or why I cannot get the data.\n\nA paragraph or two describing your planned statistical methodology for building outcome models answering your research questions. Obviously, you won’t have developed a complete tool set here, but do the best you can. Here is a sample recipe for this last piece:\n\nStatistical Methods: Appropriate graphical and numerical data summaries across the exposure groups, followed by propensity score matching and weighting methods to address selection bias. For outcomes analysis, our primary tool will be primary tool on propensity-matched pairs, as well as propensity-weighted (double robust) comparisons of the exposure groups on our primary outcome.\nNote that you’ll need to insert the information in italics yourself, including the specific exposure groups you’re comparing and your primary outcome measure. In most cases your primary tool is determined by the type of outcome you are working with, as follows:\n\nIf your primary outcome is continuous, your primary tool will usually be linear regression.\nIf your primary outcome is binary (yes/no), your primary tool will usually be logistic regression.\nIf your primary outcome is time-to-event, your primary tool will usually be Cox regression.\n\nTo clarify, all of you will be doing both propensity matching (one of several types) and an analysis using propensity score weighting (with a double robust adjustment included) to assess the impact of your treatment on your outcome. All analysis plans should indicate this clearly, as indicated above."
+  },
+  {
+    "objectID": "proj500.html#how-does-dr.-love-evaluate-these-proposals",
+    "href": "proj500.html#how-does-dr.-love-evaluate-these-proposals",
+    "title": "Course Project Instructions",
+    "section": "How does Dr. Love evaluate these Proposals?",
+    "text": "How does Dr. Love evaluate these Proposals?\nFirst, the plans for this project must look 100% feasible to me - the big problems I worry about are as follows.\n\ngetting the data too late to react well to problems,\nmissing data that are not anticipated,\nlimited covariate sets, in terms of either few covariates, or missing dimensions of the problem of interest\ninappropriate study designs for the sorts of propensity score analysis we are focused on (I worry about case-referent/case-control studies more than I do retrospective or prospective cohorts, for instance)\ntrying to do multiple studies at once, and\ncovariates which essentially define the propensity score (for instance, all of the tall people got my treatment, and all of the non-tall people got my treatment B).\n\nSome people want to build their projects into more substantial work, but this is a class project, not a MS thesis in itself. Remember that you’re going to have limited time to present your work, so some simplifying will be necessary.\n\nSpreadsheet of Key Proposal Elements\nAs part of my evaluation of your proposal drafts, I will be preparing a spreadsheet where I will be trying to identify the following elements. Please ensure that you have made my development of your row in that spreadsheet trivially easy to do. The elements are:\n\nyour title\nyour collaborators (both team members in class and people outside of the class who are involved in the work or who provided you the data)\nyour data source, with specific information about how you got the data, and how I can get the data or why I cannot get the data\nwhether you have the data in hand, and if you don’t, when you will get it and how you know that’s when you will get it\nwhat the sample size is overall (obviously this should exclude any subjects for whom you have missing treatment or outcome data), and what # and % of those people have the treatment/exposure that you will be building a propensity model for, and what # (%) have the alternative treatment/exposure. Note that you have to have a binary treatment/exposure. Not several exposures - just the one, with only two possibilities, clearly described.\nwhat the population is that you intend to generalize to from your sample, with a clear indication as to why your sample is (or isn’t) representative of that population, and how you know that\nwhat the outcome is (you can look at a maximum of two outcomes, must designate one as primary and both outcomes can only be binary, quantitative or time-to-event. No multi-categorical outcomes, and no longitudinal outcomes, unless you’re just looking at a change over time variable represented by a slope or difference\nwhat the treatment/exposure is, and (again) how many people have it, and how many have the alternative in your sample\nwhat the covariates are that you plan to include in your propensity model and how they are measured / categorized. I should easily be able to tell how many observations you have for each category of a categorical variable, and how many missing values you have for any kind of variable. Ideally, you’d be ready to prepare the necessary Table 1 that specifies this information broken down into your two treatment/exposure groups as part of your second draft of the proposal.\n\nIf you don’t understand the answers to any of these nine questions yet, that’s a problem with the data set you’ve selected that you need to resolve before submitting your proposal."
+  },
+  {
+    "objectID": "proj500.html#frequently-asked-questions-about-the-proposal",
+    "href": "proj500.html#frequently-asked-questions-about-the-proposal",
+    "title": "Course Project Instructions",
+    "section": "Frequently Asked Questions about the Proposal",
+    "text": "Frequently Asked Questions about the Proposal\n\nI want to run a project idea past you prior to doing a formal proposal. What information do you need to see immediately to understand whether or not a more complete proposal is likely to be successful?\n\nThere are four things I will need, at a minimum.\n\nWhat is the exposure - what are the two groups of patients you intend to compare, and how many patients are in each of those groups (it’s also helpful to tell me where the patients come from, and how they’re selected to be in the study.) Ideally, you will have substantially more patients (at least twice as many) in your “control” group as in your “intervention” group.\nWhat is the primary outcome you wish to compare them on, and how is that variable measured? Hearing about secondary outcomes is also helpful, but you should limit yourself to no more than two outcomes, total, in this study.\nWhat is the nature of the covariate information - what variables do you have, specifically, that you propose to include in your Table 1 comparing the two groups, and in the propensity model? Are they all measured PRIOR to the decision to apply or not apply the exposure of interest to patients?\nDo you have the data in hand? What are the steps that need to happen to get the data in hand? Are there any IRB/HIPAA concerns worth mentioning at this point?\n\n\nWhat are the characteristics of a data set that makes it highly appropriate for this project?\n\nYou have the data, and can prove to me that you can present it to the class without drawing the ire of any regulatory body or review board.\nYou know how the data were gathered, and can investigate problems in the data yourself. You are capable of cleaning and managing the entire data set that you plan to use, yourself.\nThe data have not previously been analyzed using propensity scores, though it is possible that you have new data and wish to partially replicate an existing study.\nThe data compares two groups of subjects, some of whom received an exposure of interest and some of whom did not (or received an alternative exposure) for reasons that are not directly related to a random allocation.\nThere are multiple covariates which can help explain why the subjects did or did not receive the exposure of interest.\nThere is at least one well-measured outcome of interest, which you believe to be both important to learn about and to potentially be causally linked to the exposure, usually on the basis of both a logical argument, some (biological or other) theory and some prior empirical evidence.\nYou have sufficient numbers of subjects and covariates for propensity score methodology to be plausible. On some level, the more observations you have, the better, but not if you’re still collecting or cleaning the data. If you have more than a half-dozen covariates you wish to include in the propensity score, and have at least 100 patients in the smaller of your two exposure groups, I am not likely to be especially concerned about the size of your data set. If you cannot meet these standards with a data set in which you have a serious interest, contact me to discuss the matter, soon.\n\nI have multiple outcomes I’m interested in - it’s hard to pick a primary one in advance - will I have time to look at multiple outcomes in the presentation?\n\nYou may build models looking at multiple outcomes - expect to wind up only presenting some of those outcomes, and perhaps only one in detail, for the class. You should explain to me in your proposal what the other outcomes of interest might be. If you have all of the data, you can easily re-run things with a series of different outcomes once you’ve set up the main propensity analyses.\n\nWill you help me find a data set to use?\n\nThat’s your job and it can be a difficult one. I will happily help you decide whether a particular observational study is likely to work well for this project, but I am not going to find data for you.\nBelow, I list some available free options you might consider."
+  },
+  {
+    "objectID": "proj500.html#if-you-need-ideas-for-a-project-in-500",
+    "href": "proj500.html#if-you-need-ideas-for-a-project-in-500",
+    "title": "Course Project Instructions",
+    "section": "If you need ideas for a project in 500…",
+    "text": "If you need ideas for a project in 500…\nYou might consider these possibilities…\n\nUse County Health Rankings data.\n\n\nAs of 2016, there were 3,007 counties, 64 parishes, 19 organized boroughs, 10 census areas, 41 independent cities, and the District of Columbia for a total of 3,142 counties and county-equivalents in the 50 states and District of Columbia. There are an additional 100 county equivalents in the territories of the United States. (Wikipedia).\n\n\nI could imagine, for instance, your pulling down data from a series of states until you have a reasonable cross-section of information from the most recent County Health Rankings for, say, 1500 counties, for which you have a quantitative outcome like age-adjusted years of potential life lost per 100,000 population, or percentage of adults reporting fair or poor health, an exposure variable that you develop from the data - like whether the income inequality ratio was above or below a certain threshold (or, perhaps better, whether it was in the top quarter or the bottom half of counties as a whole so you’d have something like a 1:2 ratio between exposed (to, for instance, high income inequality) and control). Then, as covariates you would have a lot of county specific information.\n\n\nUse NHANES data. The National Health and Nutrition Examination Survey is an excellent source of potential data for you, with lots of interesting outcomes, treatments and covariates to explore, although the survey weighting poses a challenge turning the project into something publishable (since we’ll plan on you not incorporating the survey weights if you use NHANES data.) For the project, we would certainly want you to use more than one survey’s worth of data, if possible, and several different questionnaires, rather than relying on just one.\n\nIf you’re interested in genomics, you might take a look at Patel, Chirag J. et al. (2016), Data from: A database of human exposomes and phenomes from the US National Health and Nutrition Examination Survey and the associated materials linked there, to see if that might prove suitable.\n\nUse 500 Cities data. This is a pretty easy download, and there are lots of approaches you could take that would be interesting. Again, the hard work would be identifying a treatment, outcome and covariates that make sense."
+  },
+  {
+    "objectID": "proj500.html#the-main-propensity-score-analyses",
+    "href": "proj500.html#the-main-propensity-score-analyses",
+    "title": "Course Project Instructions",
+    "section": "The Main Propensity Score Analyses",
+    "text": "The Main Propensity Score Analyses\nI expect you to do (and present) two analyses using propensity scores. You will eventually be submitting a single Quarto file that takes your original (perhaps after cleaning) data, and produces all of the analyses you will do. You will perform a first analysis that uses matching and a second analysis that uses weighting.\nFor the matched analysis, you can use any form of propensity score matching: in most cases this will probably be 1:1 greedy matching, either without or with replacement. You are welcome to consider alternative matching strategies.\nFor the weighted analysis, my preference is the use of an ATT approach with the linear propensity score included as an adjustor in the final outcome model after weighting – we’ll call this a “double robust” analysis. Should that not be feasible for some reason, you may instead consider ATT weighting on the propensity score without the additional adjustment. I wouldn’t use ATE weighting without checking with me first."
+  },
+  {
+    "objectID": "proj500.html#on-coding-your-variables",
+    "href": "proj500.html#on-coding-your-variables",
+    "title": "Course Project Instructions",
+    "section": "On Coding Your Variables",
+    "text": "On Coding Your Variables\nI have some variables which I could code in several ways - for instance, I could code as “yes/no” for meeting a standard or I could code as “low/middle/high” in terms of severity or I could code as the continuous measured value? Which should I do?\n\nAlways code everything in the least collapsed way possible at the start of building a data set.\nYou definitely want to build your data set using the data in the least aggregated (most granular) manner possible. It is always easy to collapse categories (taking low/middle/high to low vs not low, for instance) but it is always hard to expand them (taking low vs. not low to low/middle/high).\nIf any of your categorical variables are based on a continuous variable that you have also measured, then you should definitely include the continuous variable in your data set either instead of or along with the categorized version. Again, you can always get the categories again if you need them from the continuous results, but you can’t go the other way."
+  },
+  {
+    "objectID": "proj500.html#what-to-do-about-missing-data",
+    "href": "proj500.html#what-to-do-about-missing-data",
+    "title": "Course Project Instructions",
+    "section": "What to do about missing data?",
+    "text": "What to do about missing data?\n\nIf you have missing data in an outcome, drop those cases.\nIf you have missing data in your exposure/treatment, drop those cases.\nIf you have missing data in a covariate or several but it affects less than 20 observations total, and also less than 10% of the sample size, then just drop them or impute them with single imputation. The simputation package is one good option.\nIf you have more substantial missingness in a covariate or covariates, so that more observations are affected than you are willing to drop, then:\n\nCreate an indicator (1 = value was imputed, 0 = value was observed) for each variable with substantial missingness. If age, for example, is missing, call this indicator age_im\nThen use simple imputation to impute the missing value for the missing cases for that variable. Call that age_full to indicate that you’ve imputed the data.\nInclude both age_full and age_im in your propensity score model, and balance on both. That way, you’ve balanced on whether a value was missing or not, and on the observed values, too.\nTo do the simple imputation, it’s ok to impute with the simputation package (do something simple, like a robust linear model on a few predictors for a continuous variable or select an observed value at random, or impute according to the existing probabilities in observed data for a categorical variable.) Be sure to set a seed before imputing, so you can change that choice later, as part of a stability analysis.\n\n\nI don’t see any reason for you to do multiple imputation in your 500 project, and would not recommend it."
+  },
+  {
+    "objectID": "proj500.html#checking-balance",
+    "href": "proj500.html#checking-balance",
+    "title": "Course Project Instructions",
+    "section": "Checking Balance",
+    "text": "Checking Balance\nDon’t use Rubin’s Rule 3 in the project. That is all. Use a Love Plot and Rubin’s Rules 1 and 2, in your matching and weighting analyses."
+  },
+  {
+    "objectID": "proj500.html#checking-to-see-if-your-propensity-scores-are-too-close-to-zero-or-one",
+    "href": "proj500.html#checking-to-see-if-your-propensity-scores-are-too-close-to-zero-or-one",
+    "title": "Course Project Instructions",
+    "section": "Checking to See if Your Propensity Scores are Too Close to Zero or One",
+    "text": "Checking to See if Your Propensity Scores are Too Close to Zero or One\nWe will worry if a propensity score value is below 0.01 or above 0.99. If that happens to you, contact me, quickly. If just one or two subjects fall in that range, we may wind up just dropping them from the study. If more fall in that range, we will have to look for variables included in your covariate list that either alone or in combination with other covariates, determine the treatment group perfectly. The simplest check is to get a summary of the bottom few and top few propensity score values within each treatment group, perhaps with the describe function in the Hmisc package.\nCheck also that each covariate has a non-explosive and non-missing point estimate and confidence interval. If any of this is not the case, you likely have a covariate that completely separates the treatment group from the control group. Such a variable should not be in your propensity model. Or it may be that you have two extremely collinear covariates in the PS model, in which case you can see that via VIF. The best way I have to fix this problem (if it’s not obvious what to drop using other means) is to build the propensity model one predictor at a time until you find the covariate (or covariates) that causes the PS model to blow up. So that would be the first thing I suggest you try."
+  },
+  {
+    "objectID": "proj500.html#squared-terms-or-product-terms-in-a-propensity-or-outcome-model",
+    "href": "proj500.html#squared-terms-or-product-terms-in-a-propensity-or-outcome-model",
+    "title": "Course Project Instructions",
+    "section": "Squared Terms or Product Terms in a Propensity or Outcome Model",
+    "text": "Squared Terms or Product Terms in a Propensity or Outcome Model\nSuppose you decide you want to include Age as a covariate in your propensity or outcome model, and also account for the notion that Age might have a non-linear relationship with what you’re trying to predict, or just for the notion that Age is an especially important continuous covariate to balance well. So you decide, as a result to include Age and Age squared in your model. Try this…\n\nFind the average age for all subjects. If some subjects don’t have an age, impute first.\nSubtract that average age from each subject’s age to create a new variable, called centered age. If the overall average age was 50, and the first subject’s age was 53, then that subject’s centered age would be 3. If the second subject was 44, then centered age would be -6.\nCreate a new variable containing the square of the centered age for each subject.\nInclude the centered age (I usually call this age.c) and its square (age.c2) in your outcome model or propensity model, in place of the original ages.\n\nIf you’re including an interaction between a binary indicator and a continuous variable in a model for the purposes of the project, I would simply create a product term and include that. Include a product term if you have reason to believe there is a meaningful interaction between the variables."
+  },
+  {
+    "objectID": "proj500.html#what-if-11-greedy-matching-without-replacement-doesnt-work-well",
+    "href": "proj500.html#what-if-11-greedy-matching-without-replacement-doesnt-work-well",
+    "title": "Course Project Instructions",
+    "section": "What if 1:1 greedy matching without replacement doesn’t work well?",
+    "text": "What if 1:1 greedy matching without replacement doesn’t work well?\nIf your 1:1 match without replacement doesn’t produce enough of an improvement in covariate balance (by Rubin’s Rules or by a Love plot) to make you happy, then consider 1:1 matching with a caliper, or 1:1 matching with replacement. In most cases, one (or both) of those strategies should help.\nAs mentioned previously, if you have roughly equal numbers of subjects in your “intervention” and “control” groups, then 1:1 matching won’t work very well (unless, perhaps, you do it with replacement) so you may wind up needing to consider other matching approaches that we will demonstrate over the course of the semester."
+  },
+  {
+    "objectID": "proj500.html#overview-1",
+    "href": "proj500.html#overview-1",
+    "title": "Course Project Instructions",
+    "section": "Overview",
+    "text": "Overview\nYour final project work involves three tasks:\n\nSubmit your pre-presentation version of your Abstract, and of your Slides in time for your presentation to our Shared Google Drive. (Your slides and abstract need to be posted to our Shared Drive by Noon on the day before your presentation.)\nGive your presentation in class, according to the schedule developed during the semester, and posted at the Course Calendar.\nAfter you’ve all given your presentations and received feedback, you will submit your complete set of final materials to Canvas, including your revised abstract and slides, your data set, and an Quarto file and HTML document generated from that file, which includes a discussion, as outlined below.\n\nThe remainder of this document describes these pieces, and also provides some insight on how I’d like to see you put together your presentation, and how you will be evaluating the presentations.\nASK QUESTIONS EARLY via email, in class, or in office hours. It’s always easier to make adjustments when time pressure isn’t a major issue."
+  },
+  {
+    "objectID": "proj500.html#the-abstract",
+    "href": "proj500.html#the-abstract",
+    "title": "Course Project Instructions",
+    "section": "The Abstract",
+    "text": "The Abstract\nYour final abstract should be no longer than 4,000 characters and contains much of your approved proposal (perhaps more succinctly summarizing some of the background, data set, and methodological details to meet the character limit.) To this, you will add (still within the character limit) brief Results and Conclusions sections. Unlike our previous versions of this task, this version of the Abstract should be divided into four sections, as indicated below:\n\na Background section, to include basic descriptive information about the problem of interest and its clinical relevance, leading to a study objective, and concluding with a careful statement of the main research question, or hypothesis.\na Methods section, to include the classification of the type of research design, a description of the setting and participants, the specific details on the intervention or exposure of interest, and how it is allocated to participants, along with a listing of primary outcome measures and a description of the data set. You’ll also need to specify (in general terms) the covariates used in building your propensity score. This should then be followed by a paragraph or two describing the statistical methodology used for both developing the balanced covariate information through (in one analysis) matching on the propensity score and (in another analysis) some other method involving propensity weighting, as well as specifying the actual method of comparing outcomes after propensity scores have been used.\na Results section, to include the results for your primary outcome, and any secondary outcomes, probably described using point estimates and confidence intervals, rather than p values, and also describing the effectiveness of the propensity score work you did in improving covariate balance across your exposure groups. Any sensitivity analyses should also be reported here, though in a manuscript, they might make the discussion section instead of the Results.\na Conclusions section, to include a brief summary of the key conclusions, related directly to the research questions posed in the Background section, along with some indication of plans for future work.\n\nThe pre-presentation version of your Abstract should be complete. If you decide to make changes as a result of comments made in the course of your Presentation, then the version you submit in the final submission phase should reflect those changes."
+  },
+  {
+    "objectID": "proj500.html#the-presentation",
+    "href": "proj500.html#the-presentation",
+    "title": "Course Project Instructions",
+    "section": "The Presentation",
+    "text": "The Presentation\nAfter all of the project proposals have been approved, we will set a schedule for the presentations. Your slides must be submitted to the appropriate place in our Shared Google Drive in either PDF, HTML (slides), Google Slides or Powerpoint format, along with your pre-presentation Abstract, according to the deadline in the Course Calendar associated with your project presentation date.\nBroadly, your slides will include an introduction which provides a foundation by motivating and clearly stating the research questions you studied, a main section which summarizes your pre-data collection beliefs, the key models and analytical results, and the critical findings of the study, and a conclusion, which provides insight into how your knowledge of the problem you studied has changed as a result of the project, as well as highlighting what you believe to be the key takeaways (both statistical and study-specific) for your audience. These sections should be keyed to slides, smoothing transitions, and forcing you to “tell us what you’re going to tell us, tell us, then tell us what you told us.”\nThe goal is for each presentation to take 25 minutes in total, including 18 minutes of slides, 5 minutes for asking and answering questions during the talk, and 2 minutes between talks for transitions.\n\nSome Suggestions and a Potential Outline for Your Presentation\nAim for 20 slides (16-24 is reasonable - more than 24 is a bad idea), including a title slide containing the project title, and your name, email and affiliation(s). Use large, extremely readable fonts. Class slides provide insight into what I think works well in this room.\nHere’s how I might outline such a talk. Do not feel obligated to follow this outline precisely, but I thought it might help to see what I’m thinking about when I say 20 slides is sufficient. Assume you are only going to have time to discuss a primary outcome in any detail, so choose it well.\n\nSlide 1: Meaningful Title, with your contact details, affiliations, and the date.\nSlides 2-3: Background slides (if you don’t need two slides, use 1) - Include a VERY small amount of background material – just enough to let us understand the major clinical issues involved well enough to evaluate your results. Most students err here on the side of providing too much information. This project presentation should focus on the methodological issues. This shouldn’t be more than 1 minute.\nSlide 4: A slide explicitly stating the research question and population of interest\nSlide 5: A slide for data source, exposure and outcome definitions – the slides should clearly state the source of data (perhaps with the description of the population), the definition of the exposure and the key outcome you will focus on (with details as needed so we understand what we’re looking at) and specifically including the number of patients in each exposure group prior to matching\nSlide 6: A slide to list the covariates in groups, explaining why you chose what you did, without reading a long list to us. You should be able to explain each of the measures involved if asked, but don’t read the list to us – just have it, and be able to tell us how many variables were in your propensity model. It’s helpful to group the covariates by type rather than, say, alphabetically. You should also be able to indicate which variables (if any) you had to impute, and what approaches of those I provided (or others, if applicable) that you used to do that imputation.\nSlides 7-8: A slide to describe the analyses you did – matching (including how many matches you made, and whether you did anything other than 1:1 greedy matching) and then your second analysis – as discussed earlier.\n\nSuppose you run a 1:1 propensity match WITH REPLACEMENT. You should want to know a. how many treated subjects are in your matched sample and b. how many control subjects are in your matched sample. If you run a match with match_with_replacement &lt;- Match(Y, Tr, X, M=1) then these answers come from n_distinct(match_with_replacement$index.treated) and n_distinct(match_with_replacement$index.control), respectively. This method works for any match obtained using the Matching package. Those of you matching in any way other than 1:1 without replacement, get this summary pair of counts into your report.\n\nSlide 9: A slide to indicate how you fit the propensity score (i.e. propensity to be in which group?) and its results – specifically, how many covariates did you include, what was the minimum and maximum propensity score within each exposure group (so we can see that they’re not too close to 0 or 1), and perhaps a density plot to compare the propensity scores.\nSlide 10: A Love plot to describe covariate balance in terms of standardized differences before and after matching.\nSlide 11: An assessment/table of Rubin’s Rules before and after matching. No need to show the Rubin’s Rule 3 plot or the variance ratio plot – you can just summarize important details.\nSlide 12: A slide describing the primary outcome result after matching – showing the estimated causal effect (perhaps an odds ratio, hazard rate or risk difference, or whatever) properly labeled, explained in detail, and accompanied by a 95% confidence interval, and a comparison to the original (unadjusted) estimate and confidence interval.\nSlides 13-14: A slide describing what sort of weighted analysis you did and how it worked out in terms of improving covariate balance and reducing selection bias (if this is weighting alone, for instance, highlights of an assessment of balance after weighting would probably just take one slide)\nSlide 15: A slide describing the primary outcome result after your second propensity-based analysis – showing the estimated causal effect (perhaps an odds ratio, hazard rate or risk difference, or whatever) properly labeled, explained in detail, and accompanied by a 95% confidence interval, and a comparison to both the matched and the original (unadjusted) estimates and confidence intervals. You should be prepared to indicate which analysis is more appropriate in your view, on the basis of the quality of balance achieved, mostly.\nSlide 16: If your 1:1 matched analysis was statistically significant, you should present a sensitivity analysis, with a gamma estimate, and interpret that result in an English sentence or two. If it wasn’t, you should present some thoughts on potential stability analyses.\nSlide 17: A slide with conclusions about the science or clinical questions, focusing on the primary outcome. Specify some natural next steps, if that seems appropriate, in addition to highlighting what you have learned from the current study. Link your study to the existing literature you provided in the background materials.\nSlide 18: A slide with statistical conclusions – additional methodological considerations. What do you know now that you wish you knew at the beginning, or that you think might be useful to others, or that you think might be useful to you after much of the class has faded into memory?\n\n\n\nEvaluating the Project Presentations\nAll students must attend all presentations (you will be providing both oral and written feedback to your colleagues). A sampling of the questions I have used in past evaluation sheets with this class follows.\n\n(Open Response) What was the most important thing you learned from this presentation?\n(Open Response) What was the muddiest, most confusing part of this presentation?\n(Likert scales 6 = Strongly Agree to 1 = Strongly disagree)\n\nThe research question(s) were stated clearly and motivated by the introduction.\nThe speaker motivated their choices about study design well.\nThe speaker developed reasonable solutions to analytic problems.\nThe speaker focused on important issues in the presentation.\nI believe the speaker’s conclusions.\nThis presentation was informative and left me with “take away” value.\n\n(Open Response) Make your best suggestion to improve this presentation, or study.\n\nI am open to suggestions about other questions that might be useful. Just send them along. Thanks."
+  },
+  {
+    "objectID": "proj500.html#the-final-set-of-deliverables",
+    "href": "proj500.html#the-final-set-of-deliverables",
+    "title": "Course Project Instructions",
+    "section": "The Final Set of Deliverables",
+    "text": "The Final Set of Deliverables\nThe final set of deliverables includes five key items, all of which you’ll submit to Canvas by the deadline in our Calendar:\n\nAn updated Abstract with any necessary corrections to the one submitted previously (if there are no changes, please submit this anyway and indicate that you have made no changes.) The 4,000 character limit still applies.\nUpdated Slides with necessary corrections or amplifications to that presented in class (again, if there are no changes, please submit this anyway and indicate that you have made no changes.)\nA copy of the Data Set (as a .csv file) or, if that is impossible, a dummy data set containing all variables used in your analyses, and a single, representative (though possibly disguised) row of data,\nan especially well-annotated Quarto file that takes your submitted data set and flawlessly produces a document containing all of the analyses described in your abstract, slides or discussion, and\nan HTML version of the results of running your Quarto file, which is described further below.\n\nNote that your Quarto/HTML file should produce a readable discussion of your entire project.\n\nThis discussion should describe both your analyses and conclusions in a larger context and describe implications of your current work, and potential future work, likely in more detail than you will be able to provide in your presentation.\nInclude a paragraph (or more) at the end of this discussion specifying what you learned from doing this project, and what you still need to learn in order to complete your study to your satisfaction.\nYou may incorporate as many figures as are crucial in your discussion, but edit your Quarto file to only produce the plots and output you intend to comment on, certainly including anything that is included in your Abstract or Slides, but also potentially including other things that did not make it into those pieces.\nFrank Harrell’s Manuscript Checklist of Statistical Problems to Detect and Avoid may be helpful."
+  },
+  {
+    "objectID": "proj500.html#footnotes",
+    "href": "proj500.html#footnotes",
+    "title": "Course Project Instructions",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThough hardly an original idea in general, this particular phrasing is stolen from Harry Roberts, originally prepared for his courses at the University of Chicago. I am also grateful to Doug Zahn, for several helpful suggestions swiped from his work at Florida State University, and to Dave Hildebrand, for many things, not least his excellent example at Wharton.↩︎"
+  }
+]

@@ -1,0 +1,321 @@
+---
+title: "Course Project Instructions"
+date: last-modified
+---
+
+# Overview
+
+As a substantial part of your course grade, you will complete a small observational study comparing two exposures on one or more outcome(s) in time to generate an abstract, give a presentation, and complete a thorough written discussion using Quarto.
+
+> It is hard to learn statistics (or anything else) passively; concurrent theory and application are essential^[Though hardly an original idea in general, this particular phrasing is stolen from Harry Roberts, originally prepared for his courses at the University of Chicago. I am also grateful to Doug Zahn, for several helpful suggestions swiped from his work at Florida State University, and to Dave Hildebrand, for many things, not least his excellent example at Wharton.].
+ 
+There is more to a statistical application than the analysis of a canned data set, even a good canned data set. George Box noted that "statistics has no reason for existence except as the catalyst for investigation and discovery." Expert clinical researchers and statisticians repeatedly emphasize how important it is that people be able to write well, present clearly, work to solve problems, and show initiative. This project assignment is designed to help you develop your abilities and have a memorable experience.
+
+**Please don't be shy about asking for help sooner, rather than later. Options narrow as an investigation progresses. The earlier we hear about a problem, the more likely we will be able to help solve it.** [Contact Us](contact.qmd) with your project questions at any time.
+
+- All deadlines related to the Project are provided on the [Course Calendar](calendar.qmd). 
+
+## Deliverables 
+
+I want you to establish relevant and interesting research questions related to a problem of interest, procure data to help answer the questions and pose others, and communicate your results to an audience of your peers. You will be responsible for the following elements of a project. 
+
+1. The [Project Proposal](#the-project-proposal) for which you will submit to [Canvas](https://canvas.case.edu/) an initial draft for my review, and perhaps a second draft responding to my review and providing more details if necessary. 
+
+- Once you have your data, you will probably want to look at the [Analysis Tips](#analysis-tips) we've gathered.
+
+2. The [Final Materials](#final-materials). These include:
+    - An abstract and your presentation slides to our **Shared Google Drive** 24 hours prior to your presentation. Be sure your file names include your name.
+    - At the final deadline specified on the [Calendar](calendar.qmd) you will submit to [Canvas](https://canvas.case.edu/) your Abstract and Slides (with any revisions you decide to make in light of the feedback you receive). In addition, you will also submit a data set, Quarto file and HTML results document (including a discussion) that shows all of your work that motivated your slides.
+
+# The Project Proposal
+
+## Submission Specifications
+
+The Proposal is submitted via [Canvas](https://canvas.case.edu/). The deadline is specified on the [Course Calendar](calendar.qmd). You should have a final version of your data set by the time you submit your proposal. 
+
+## What should the proposal look like? 
+
+Your proposal will be a 3-4 page summary (moving towards an abstract) of your proposed study. 
+
+- Begin with a good, interesting, thought-provoking title. You will work hard on this: please don't call it "Observational Studies Project."  A vast majority of your intended audience will never get past the title and abstract of the final report. Get off to a good start. Avoid deadwood like "The Study of..." or "An Analysis of..." and keep your caveats out of the title sufficiently that you can express the title in no more than 80 characters, perhaps including a subtitle if more granularity is necessary.
+- Next, provide your name and the names of any co-investigators (in which case you should indicate their role in this work.) If you're doing this work as part of your work at an institution other than CWRU, specify that, too.
+
+### Overview (Title, Investigators, 8 key sections)
+
+After your title and investigator information, there are eight sections I will be looking for, and I suggest you use the following headings:
+
+1. Background
+2. Objective and Research Question
+3. Participants
+4. The Exposure
+5. The Outcome(s)
+6. The Covariates
+7. Getting the Data Set
+8. Planned Methods
+
+That should be sufficient for the first draft of your proposal, and in the final draft, you'll be reacting to my requests for improvements, and that may lead to some changes in how you decide to present the results.
+
+### Detailed Instructions for each section of the Proposal
+
+Your proposal should include all of the following...
+
+1. No more than a paragraph (and, perhaps, one figure) of background information, meant to help me understand the study's objective. Use words I know.
+2. An objective or list of study objectives, which leads directly to the research question or questions.
+    - Be sure you specify the population, key outcome(s), and exposure/treatment (as well as, perhaps, some of the covariates of interest) in developing your objective.
+    - This is a **SMALL** study. Do not boil the ocean.
+    - Follow your objective with a careful statement of the research question(s), with indications about anticipated directions for any hypotheses. 
+    - Please state research questions as questions. Questions end with question marks.
+    - No more than two research questions, please.
+3. A brief description of the participants, including key inclusion or exclusion criteria, as well as the size and style of the sample (i.e. 523 consecutive male patients between November and May with burns over more than 15% of their bodies)
+    - Be sure also to tell me where the subjects come from, and how they're selected to be in the study, as well. You're specifying at the least the *setting* in which the data were collected.
+    - Be sure to provide an appropriate classification of the type of research design (i.e. prospective cohort, etc.)
+    - Your sample size should include somewhere between 250 and 2,500 subjects. You need at least 100 observations in each of the two exposure groups.
+    - If your study begins with more than 2500 subjects, you will take a random sample of subjects so that your total sample size is around 2,500 or so for the project. You can always drop back to a more complete sample later, if you code this sensibly, but if you have more than about 2,500 observations, your R code development will get very slow for some of the things you need to do.
+4. A brief but sufficient description of the intervention or exposure of interest. You need to tell me what the two groups of subjects are that you intend to compare, and how many subjects are in each of those groups.
+    - The exposure group with smaller sample size should be your "intervention" group and membership in this group is what you will predict in your propensity score model.
+    - If you have roughly equal numbers of subjects in your "intervention" and "control" groups, then 1:1 matching won't work very well (unless you do it with replacement) so you may wind up needing to consider other matching approaches. For purposes of this project, if you are in a setting where you can choose your sample sizes, make them imbalanced, perhaps with a ratio of 1 "intervention" subject for every 3-5 "control" subjects.
+    - Subjects with missing data on either the key exposure (that divides the sample into groups) or the outcome of interest will need to be dropped from your work, and thus should not be counted here.
+    - Be sure to describe how the exposure is allocated to participants. 
+5. A listing of (at most two) outcome measures, which should be clearly linked to the objectives.
+    - You must be comparing two groups/treatments/exposures on at most two outcomes, one of which must be identified in advance as primary.
+    - Your outcomes must be either binary, quantitative or time-to-event. A single outcome is fine. Two is the maximum.
+    - Make sure you tell me what the **primary** outcome is that you wish to compare subjects on, and how that variable is measured, and also specify what type of variable (binary/quantitative/time-to-event) it is.
+    - This isn't a study where you will have time to "boil the ocean" - you're doing several analyses of one data set to look at one key relationship.
+    - Hearing about a secondary outcome (or potential other options for the primary outcome) is welcome, but you will eventually need to  limit yourself to no more than two outcomes, total, in this study. Provide similar information for secondary outcomes as for primary ones.
+    - Be sure to indicate clearly why these outcome measures are important. Do not assume that I know. 
+    - Also, please indicate clearly how these outcome measures will be obtained and (one hopes) validated.
+6. A list of the covariates you intend to use in building your propensity score models. Provide enough information so that I can easily understand the answers to the following questions:
+    - What is the nature of the covariate information - what variables do you have, specifically, that you propose to include in your Table 1 comparing the two groups, and in the propensity model? 
+    - Are they all measured PRIOR to the decision to apply or not apply the exposure of interest to patients?
+    - Ideally, you'd prepare the necessary Table 1 that specifies this information broken down into your two treatment/exposure groups as part of your second draft of the proposal, if you have the data. We don't need the full thing in the first draft, though.
+7. A paragraph or two describing the mechanism that allows you to access the data set, and confirming that you either have it or describing why you will certainly be able to have it well before the April 1 deadline for data acquisition. 
+    - If you don't have the data, be sure to tell me what the steps are that need to happen to get the data in your hands. 
+    - You should also specify the situation in terms of IRB/HIPAA concerns, briefly, or make it clear to me that this isn't an issue.
+    - Include very specific information about how you got the data, and how I can get the data or why I cannot get the data.
+8. A paragraph or two describing your planned statistical methodology for building outcome models answering your research questions. Obviously, you won't have developed a complete tool set here, but do the best you can. Here is a sample recipe for this last piece:
+    - Statistical Methods: Appropriate graphical and numerical data summaries across *the exposure groups*, followed by propensity score matching and weighting methods to address selection bias. For outcomes analysis, our primary tool will be *primary tool* on propensity-matched pairs, as well as propensity-weighted (double robust) comparisons of *the exposure groups* on *our primary outcome*.
+    - Note that you'll need to insert the information *in italics* yourself, including the specific exposure groups you're comparing and your primary outcome measure. In most cases your primary tool is determined by the type of outcome you are working with, as follows:
+        - If your primary outcome is continuous, your primary tool will usually be linear regression.
+        - If your primary outcome is binary (yes/no), your primary tool will usually be logistic regression. 
+        - If your primary outcome is time-to-event, your primary tool will usually be Cox regression.
+    - To clarify, all of you will be doing both propensity matching (one of several types) and an analysis using propensity score weighting (with a double robust adjustment included) to assess the impact of your treatment on your outcome. All analysis plans should indicate this clearly, as indicated above.
+
+## How does Dr. Love evaluate these Proposals?
+
+First, the plans for this project must look 100% feasible to me - the big problems I worry about are as follows.
+
+1. getting the data too late to react well to problems, 
+2. missing data that are not anticipated, 
+3. limited covariate sets, in terms of either few covariates, or missing dimensions of the problem of interest
+4. inappropriate study designs for the sorts of propensity score analysis we are focused on (I worry about case-referent/case-control studies more than I do retrospective or prospective cohorts, for instance) 
+5. trying to do multiple studies at once, and 
+6. covariates which essentially define the propensity score (for instance, all of the tall people got my treatment, and all of the non-tall people got my treatment B). 
+
+Some people want to build their projects into more substantial work, but this is a class project, not a MS thesis in itself. Remember that you're going to have limited time to present your work, so some simplifying will be necessary.
+
+### Spreadsheet of Key Proposal Elements
+
+As part of my evaluation of your proposal drafts, I will be preparing a spreadsheet where I will be trying to identify the following elements. Please ensure that you have made my development of your row in that spreadsheet trivially easy to do. The elements are:
+
+1. your title
+2. your collaborators (both team members in class and people outside of the class who are involved in the work or who provided you the data)
+3. your data source, with specific information about how you got the data, and how I can get the data or why I cannot get the data
+4. whether you have the data in hand, and if you don't, when you will get it and how you know that's when you will get it
+5. what the sample size is overall (obviously this should exclude any subjects for whom you have missing treatment or outcome data), and what # and % of those people have the treatment/exposure that you will be building a propensity model for, and what # (%) have the alternative treatment/exposure. Note that you have to have a binary treatment/exposure. Not several exposures - just the one, with only two possibilities, clearly described.
+6. what the population is that you intend to generalize to from your sample, with a clear indication as to why your sample is (or isn't) representative of that population, and how you know that
+7. what the outcome is (you can look at a maximum of two outcomes, must designate one as primary and both outcomes can only be binary, quantitative or time-to-event. No multi-categorical outcomes, and no longitudinal outcomes, unless you're just looking at a change over time variable represented by a slope or difference
+8. what the treatment/exposure is, and (again) how many people have it, and how many have the alternative in your sample
+9. what the covariates are that you plan to include in your propensity model and how they are measured / categorized. I should easily be able to tell how many observations you have for each category of a categorical variable, and how many missing values you have for any kind of variable. Ideally, you'd be ready to prepare the necessary Table 1 that specifies this information broken down into your two treatment/exposure groups as part of your second draft of the proposal.
+
+If you don't understand the answers to any of these nine questions yet, that's a problem with the data set you've selected that you need to resolve before submitting your proposal.
+
+## Frequently Asked Questions about the Proposal
+
+1. I want to run a project idea past you prior to doing a formal proposal. What information do you need to see immediately to understand whether or not a more complete proposal is likely to be successful?
+    - There are four things I will need, at a minimum. 
+        - What is the exposure - what are the two groups of patients you intend to compare, and how many patients are in each of those groups (it's also helpful to tell me where the patients come from, and how they're selected to be in the study.) Ideally, you will have substantially more patients (at least twice as many) in your "control" group as in your "intervention" group.
+        - What is the primary outcome you wish to compare them on, and how is that variable measured? Hearing about secondary outcomes is also helpful, but you should limit yourself to no more than two outcomes, total, in this study.
+        - What is the nature of the covariate information - what variables do you have, specifically, that you propose to include in your Table 1 comparing the two groups, and in the propensity model? Are they all measured PRIOR to the decision to apply or not apply the exposure of interest to patients?
+        - Do you have the data in hand? What are the steps that need to happen to get the data in hand? Are there any IRB/HIPAA concerns worth mentioning at this point?
+        
+2. What are the characteristics of a data set that makes it highly appropriate for this project?
+    - You have the data, and can prove to me that you can present it to the class without drawing the ire of any regulatory body or review board.
+    - You know how the data were gathered, and can investigate problems in the data yourself. You are capable of cleaning and managing the entire data set that you plan to use, yourself.
+    - The data have not previously been analyzed using propensity scores, though it is possible that you have new data and wish to partially replicate an existing study.
+    - The data compares two groups of subjects, some of whom received an exposure of interest and some of whom did not (or received an alternative exposure) for reasons that are not directly related to a random allocation.
+    - There are multiple covariates which can help explain why the subjects did or did not receive the exposure of interest.
+    - There is at least one well-measured outcome of interest, which you believe to be both important to learn about and to potentially be causally linked to the exposure, usually on the basis of both a logical argument, some (biological or other) theory and some prior empirical evidence.
+    - You have sufficient numbers of subjects and covariates for propensity score methodology to be plausible. On some level, the more observations you have, the better, but not if you're still collecting or cleaning the data. If you have more than a half-dozen covariates you wish to include in the propensity score, and have at least 100 patients in the smaller of your two exposure groups, I am not likely to be especially concerned about the size of your data set. If you cannot meet these standards with a data set in which you have a serious interest, contact me to discuss the matter, soon.
+
+3. I have multiple outcomes I'm interested in - it's hard to pick a primary one in advance - will I have time to look at multiple outcomes in the presentation?
+    - You may build models looking at multiple outcomes - expect to wind up only presenting some of those outcomes, and perhaps only one in detail, for the class. You should explain to me in your proposal what the other outcomes of interest might be. If you have all of the data, you can easily re-run things with a series of different outcomes once you've set up the main propensity analyses.
+
+4. Will you help me find a data set to use?
+    - That's your job and it can be a difficult one. I will happily help you decide whether a particular observational study is likely to work well for this project, but I am not going to find data for you.
+    - Below, I list some available free options you might consider.
+
+## If you need ideas for a project in 500...
+
+You might consider these possibilities...
+
+1.  Use [County Health Rankings](http://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation) data. 
+
+> As of 2016, there were 3,007 counties, 64 parishes, 19 organized boroughs, 10 census areas, 41 independent cities, and the District of Columbia for a total of 3,142 counties and county-equivalents in the 50 states and District of Columbia. There are an additional 100 county equivalents in the territories of the United States. (Wikipedia). 
+
+- I could imagine, for instance, your pulling down data from a series of states until you have a reasonable cross-section of information from the most recent County Health Rankings for, say, 1500 counties, for which you have a quantitative outcome like age-adjusted years of potential life lost per 100,000 population, or percentage of adults reporting fair or poor health, an exposure variable that you develop from the data - like whether the income inequality ratio was above or below a certain threshold (or, perhaps better, whether it was in the top quarter or the bottom half of counties as a whole so you'd have something like a 1:2 ratio between exposed (to, for instance, high income inequality) and control). Then, as covariates you would have a lot of county specific information.
+
+2. Use [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) data. The National Health and Nutrition Examination Survey is an excellent source of potential data for you, with lots of interesting outcomes, treatments and covariates to explore, although the survey weighting poses a challenge turning the project into something publishable (since we'll plan on you not incorporating the survey weights if you use NHANES data.) For the project, we would certainly want you to use more than one survey's worth of data, if possible, and several different questionnaires, rather than relying on just one. 
+    - If you're interested in genomics, you might take a look at Patel, Chirag J. et al. (2016), [Data from: A database of human exposomes and phenomes from the US National Health and Nutrition Examination Survey](https://datadryad.org/stash/dataset/doi:10.5061/dryad.d5h62) and the associated materials linked there, to see if that might prove suitable.
+
+3. Use [500 Cities](https://www.cdc.gov/500cities/index.htm) data. This is a pretty easy download, and there are lots of approaches you could take that would be interesting. Again, the hard work would be identifying a treatment, outcome and covariates that make sense.
+
+# Analysis Tips
+
+## The Main Propensity Score Analyses
+
+I expect you to do (and present) two analyses using propensity scores. You will eventually be submitting a single Quarto file that takes your original (perhaps after cleaning) data, and produces all of the analyses you will do. You will perform a first analysis that uses matching and a second analysis that uses weighting. 
+
+For the matched analysis, you can use any form of propensity score matching: in most cases this will probably be 1:1 greedy matching, either without or with replacement. You are welcome to consider alternative matching strategies. 
+
+For the weighted analysis, my preference is the use of an ATT approach with the linear propensity score included as an adjustor in the final outcome model after weighting – we'll call this a "double robust" analysis. Should that not be feasible for some reason, you may instead consider ATT weighting on the propensity score without the additional adjustment. I wouldn't use ATE weighting without checking with me first.
+
+## On Coding Your Variables
+
+I have some variables which I could code in several ways - for instance, I could code as "yes/no" for meeting a standard or I could code as "low/middle/high" in terms of severity or I could code as the continuous measured value? Which should I do?
+
+- Always code everything in the least collapsed way possible at the start of building a data set. 
+- You definitely want to build your data set using the data in the least aggregated (most granular) manner possible. It is always easy to collapse categories (taking low/middle/high to low vs not low, for instance) but it is always hard to expand them (taking low vs. not low to low/middle/high). 
+- If any of your categorical variables are based on a continuous variable that you have also measured, then you should definitely include the continuous variable in your data set either instead of or along with the categorized version. Again, you can always get the categories again if you need them from the continuous results, but you can't go the other way. 
+
+## What to do about missing data?
+
+1. If you have missing data in an outcome, drop those cases.
+2. If you have missing data in your exposure/treatment, drop those cases.
+3. If you have missing data in a covariate or several but it affects less than 20 observations total, and also less than 10% of the sample size, then just drop them or impute them with single imputation. The simputation package is one good option.
+4. If you have more substantial missingness in a covariate or covariates, so that more observations are affected than you are willing to drop, then:
+    - Create an indicator (1 = value was imputed, 0 = value was observed) for each variable with substantial missingness. If age, for example, is missing, call this indicator age_im
+    -  Then use simple imputation to impute the missing value for the missing cases for that variable. Call that age_full to indicate that you've imputed the data.
+    - Include both age_full and age_im in your propensity score model, and balance on both. That way, you've balanced on whether a value was missing or not, and on the observed values, too.
+    - To do the simple imputation, it's ok to impute with the simputation package (do something simple, like a robust linear model on a few predictors for a continuous variable or select an observed value at random, or impute according to the existing probabilities in observed data for a categorical variable.) Be sure to set a seed before imputing, so you can change that choice later, as part of a stability analysis.
+
+I don't see any reason for you to do multiple imputation in your 500 project, and would not recommend it.
+
+## Checking Balance
+
+Don't use Rubin's Rule 3 in the project. That is all. Use a Love Plot and Rubin's Rules 1 and 2, in your matching and weighting analyses.
+
+## Checking to See if Your Propensity Scores are Too Close to Zero or One
+
+We will worry if a propensity score value is below 0.01 or above 0.99. If that happens to you, contact me, quickly. If just one or two subjects fall in that range, we may wind up just dropping them from the study. If more fall in that range, we will have to look for variables included in your covariate list that either alone or in combination with other covariates, determine the treatment group perfectly. The simplest check is to get a summary of the bottom few and top few propensity score values within each treatment group, perhaps with the `describe` function in the `Hmisc` package. 
+
+Check also that each covariate has a non-explosive and non-missing point estimate and confidence interval. If any of this is not the case, you likely have a covariate that completely separates the treatment group from the control group. Such a variable should not be in your propensity model. Or it may be that you have two extremely collinear covariates in the PS model, in which case you can see that via VIF. The best way I have to fix this problem (if it's not obvious what to drop using other means) is to build the propensity model one predictor at a time until you find the covariate (or covariates) that causes the PS model to blow up. So that would be the first thing I suggest you try.
+
+## Squared Terms or Product Terms in a Propensity or Outcome Model
+
+Suppose you decide you want to include Age as a covariate in your propensity or outcome model, and also account for the notion that Age might have a non-linear relationship with what you're trying to predict, or just for the notion that Age is an especially important continuous covariate to balance well. So you decide, as a result to include Age and Age squared in your model. Try this...
+
+1. Find the average `age` for all subjects. If some subjects don't have an `age`, impute first.
+2. Subtract that average `age` from each subject's `age` to create a new variable, called centered age. If the overall average age was 50, and the first subject's age was 53, then that subject's centered age would be 3. If the second subject was 44, then centered age would be -6.
+3. Create a new variable containing the square of the centered age for each subject.
+4. Include the centered age (I usually call this `age.c`) and its square (`age.c2`) in your outcome model or propensity model, in place of the original ages.
+
+If you're including an interaction between a binary indicator and a continuous variable in a model for the purposes of the project, I would simply create a product term and include that. Include a product term if you have reason to believe there is a meaningful interaction between the variables.
+
+## What if 1:1 greedy matching without replacement doesn't work well?
+
+If your 1:1 match without replacement doesn't produce enough of an improvement in covariate balance (by Rubin's Rules or by a Love plot) to make you happy, then consider 1:1 matching with a caliper, or 1:1 matching with replacement. In most cases, one (or both) of those strategies should help.
+
+As mentioned previously, if you have roughly equal numbers of subjects in your "intervention" and "control" groups, then 1:1 matching won't work very well (unless, perhaps, you do it with replacement) so you may wind up needing to consider other matching approaches that we will demonstrate over the course of the semester.
+
+
+# Final Materials
+
+## Overview
+
+Your final project work involves three tasks:
+
+1. Submit your pre-presentation version of your Abstract, and of your Slides in time for your presentation to our **Shared Google Drive**. (Your slides and abstract need to be posted to our **Shared Drive** by Noon on the day **before** your presentation.)
+2. Give your presentation in class, according to the schedule developed during the semester, and posted at the [Course Calendar](calendar.qmd).
+3. After you've all given your presentations and received feedback, you will submit your complete set of final materials to [Canvas](https://canvas.case.edu/), including your revised abstract and slides, your data set, and an Quarto file and HTML document generated from that file, which includes a **discussion**, as outlined below.
+
+The remainder of this document describes these pieces, and also provides some insight on how I'd like to see you put together your presentation, and how you will be evaluating the presentations.
+
+**ASK QUESTIONS EARLY via email, in class, or in office hours. It's always easier to make adjustments when time pressure isn't a major issue.**
+
+## The Abstract
+
+Your final abstract should be no longer than 4,000 characters and contains much of your approved proposal (perhaps more succinctly summarizing some of the background, data set, and methodological details to meet the character limit.) To this, you will add (still within the character limit) brief Results and Conclusions sections. Unlike our previous versions of this task, this version of the Abstract should be divided into four sections, as indicated below:
+
+- a **Background** section, to include basic descriptive information about the problem of interest and its clinical relevance, leading to a study objective, and concluding with a careful statement of the main research question, or hypothesis.
+- a **Methods** section, to include the classification of the type of research design, a description of the setting and participants, the specific details on the intervention or exposure of interest, and how it is allocated to participants, along with a listing of primary outcome measures and a description of the data set. You'll also need to specify (in general terms) the covariates used in building your propensity score. This should then be followed by a paragraph or two describing the statistical methodology used for both developing the balanced covariate information through (in one analysis) matching on the propensity score and (in another analysis) some other method involving propensity weighting, as well as specifying the actual method of comparing outcomes after propensity scores have been used.
+- a **Results** section, to include the results for your primary outcome, and any secondary outcomes, probably described using point estimates and confidence intervals, rather than *p* values, and also describing the effectiveness of the propensity score work you did in improving covariate balance across your exposure groups. Any sensitivity analyses should also be reported here, though in a manuscript, they might make the discussion section instead of the Results.
+- a **Conclusions** section, to include a brief summary of the key conclusions, related directly to the research questions posed in the Background section, along with some indication of plans for future work.
+
+The pre-presentation version of your Abstract should be complete. If you decide to make changes as a result of comments made in the course of your Presentation, then the version you submit in the final submission phase should reflect those changes. 
+
+## The Presentation
+
+After all of the project proposals have been approved, we will set a schedule for the presentations. Your slides must be submitted to the appropriate place in our **Shared Google Drive** in either PDF, HTML (slides), Google Slides or Powerpoint format, along with your pre-presentation Abstract, according to the deadline in the [Course Calendar](calendar.qmd) associated with your project presentation date.
+
+Broadly, your slides will include an introduction which provides a foundation by motivating and clearly stating the research questions you studied, a main section which summarizes your pre-data collection beliefs, the key models and analytical results, and the critical findings of the study, and a conclusion, which provides insight into how your knowledge of the problem you studied has changed as a result of the project, as well as highlighting what you believe to be the key takeaways (both statistical and study-specific) for your audience. These sections should be keyed to slides, smoothing transitions, and forcing you to "tell us what you're going to tell us, tell us, then tell us what you told us."  
+
+The goal is for each presentation to take 25 minutes in total, including 18 minutes of slides, 5 minutes for asking and answering questions during the talk, and 2 minutes between talks for transitions.
+
+### Some Suggestions and a Potential Outline for Your Presentation
+
+Aim for 20 slides (16-24 is reasonable - more than 24 is a bad idea), including a title slide containing the project title, and your name, email and affiliation(s). Use large, extremely readable fonts. Class slides provide insight into what I think works well in this room. 
+
+Here's how I might outline such a talk. Do not feel obligated to follow this outline precisely, but I thought it might help to see what I'm thinking about when I say 20 slides is sufficient. Assume you are only going to have time to discuss a primary outcome in any detail, so choose it well.
+
+- Slide 1: Meaningful Title, with your contact details, affiliations, and the date. 
+- Slides 2-3: Background slides (if you don't need two slides, use 1) - Include a VERY small amount of background material – just enough to let us understand the major clinical issues involved well enough to evaluate your results. Most students err here on the side of providing too much information. This project presentation should focus on the methodological issues. This shouldn't be more than 1  minute.
+- Slide 4: A slide explicitly stating the research question and population of interest
+- Slide 5: A slide for data source, exposure and outcome definitions – the slides should clearly state the source of data (perhaps with the description of the population), the definition of the exposure and the key outcome you will focus on (with details as needed so we understand what we're looking at) and specifically including the number of patients in each exposure group prior to matching
+- Slide 6: A slide to list the covariates in groups, explaining why you chose what you did, without reading a long list to us. You should be able to explain each of the measures involved if asked, but don't read the list to us – just have it, and be able to tell us how many variables were in your propensity model. It's helpful to group the covariates by type rather than, say, alphabetically. You should also be able to indicate which variables (if any) you had to impute, and what approaches of those I provided (or others, if applicable) that you used to do that imputation.
+- Slides 7-8: A slide to describe the analyses you did – matching (including how many matches you made, and whether you did anything other than 1:1 greedy matching) and then your second analysis – as discussed earlier.
+    - Suppose you run a 1:1 propensity match WITH REPLACEMENT. You should want to know a. how many treated subjects are in your matched sample and b. how many control subjects are in your matched sample. If you run a match with `match_with_replacement <- Match(Y, Tr, X, M=1)` then these answers come from `n_distinct(match_with_replacement$index.treated)` and `n_distinct(match_with_replacement$index.control)`, respectively. This method works for any match obtained using the `Matching` package. Those of you matching in any way other than 1:1 without replacement, get this summary pair of counts into your report.
+- Slide 9: A slide to indicate how you fit the propensity score (i.e. propensity to be in which group?) and its results – specifically, how many covariates did you include, what was the minimum and maximum propensity score within each exposure group (so we can see that they're not too close to 0 or 1), and perhaps a density plot to compare the propensity scores.
+- Slide 10: A Love plot to describe covariate balance in terms of standardized differences before and after matching.
+- Slide 11: An assessment/table of Rubin's Rules before and after matching. No need to show the Rubin's Rule 3 plot or the variance ratio plot – you can just summarize important details.
+- Slide 12: A slide describing the primary outcome result after matching – showing the estimated causal effect (perhaps an odds ratio, hazard rate or risk difference, or whatever) properly labeled, explained in detail, and accompanied by a 95\% confidence interval, and a comparison to the original (unadjusted) estimate and confidence interval.
+- Slides 13-14: A slide describing what sort of weighted analysis you did and how it worked out in terms of improving covariate balance and reducing selection bias (if this is weighting alone, for instance, highlights of an assessment of balance after weighting would probably just take one slide)
+- Slide 15: A slide describing the primary outcome result after your second propensity-based analysis – showing the estimated causal effect (perhaps an odds ratio, hazard rate or risk difference, or whatever) properly labeled, explained in detail, and accompanied by a 95% confidence interval, and a comparison to both the matched and the original (unadjusted) estimates and confidence intervals. You should be prepared to indicate which analysis is more appropriate in your view, on the basis of the quality of balance achieved, mostly.
+- Slide 16: If your 1:1 matched analysis was statistically significant, you should present a sensitivity analysis, with a gamma estimate, and interpret that result in an English sentence or two. If it wasn't, you should present some thoughts on potential stability analyses.
+- Slide 17: A slide with conclusions about the science or clinical questions, focusing on the primary outcome. Specify some natural next steps, if that seems appropriate, in addition to highlighting what you have learned from the current study. Link your study to the existing literature you provided in the background materials.
+- Slide 18: A slide with statistical conclusions – additional methodological considerations. What do you know now that you wish you knew at the beginning, or that you think might be useful to others, or that you think might be useful to you after much of the class has faded into memory?
+
+### Evaluating the Project Presentations
+
+All students must attend all presentations (you will be providing both oral and written feedback to your colleagues). A sampling of the questions I have used in past evaluation sheets with this class follows.
+
+- (Open Response) What was the most important thing you learned from this presentation?
+- (Open Response) What was the muddiest, most confusing part of this presentation?
+- (Likert scales 6 = Strongly Agree to 1 = Strongly disagree)
+    - The research question(s) were stated clearly and motivated by the introduction.
+    - The speaker motivated their choices about study design well.
+    - The speaker developed reasonable solutions to analytic problems.
+    - The speaker focused on important issues in the presentation.
+    - I believe the speaker's conclusions.
+    - This presentation was informative and left me with "take away" value.
+- (Open Response) Make your best suggestion to improve this presentation, or study.
+
+I am open to suggestions about other questions that might be useful. Just send them along. Thanks.
+
+## The Final Set of Deliverables
+
+The final set of deliverables includes five key items, all of which you'll submit to [Canvas](https://canvas.case.edu/) by the deadline in our [Calendar](calendar.qmd):
+
+1. An updated **Abstract** with any necessary corrections to the one submitted previously (if there are no changes, please submit this anyway and indicate that you have made no changes.) The 4,000 character limit still applies.
+2. Updated **Slides** with necessary corrections or amplifications to that presented in class (again, if there are no changes, please submit this anyway and indicate that you have made no changes.)
+3. A copy of the **Data Set** (as a .csv file) or, if that is impossible, a dummy data set containing all variables used in your analyses, and a single, representative (though possibly disguised) row of data,
+4. an especially well-annotated **Quarto** file that takes your submitted data set and flawlessly produces a document containing all of the analyses described in your abstract, slides or discussion, and
+5. an **HTML version** of the results of running your Quarto file, which is described further below.
+
+Note that your Quarto/HTML file should produce a readable discussion of your entire project.
+
+- This discussion should describe both your analyses and conclusions in a larger context and describe implications of your current work, and potential future work, likely in more detail than you will be able to provide in your presentation. 
+- Include a paragraph (or more) at the end of this discussion specifying what you learned from doing this project, and what you still need to learn in order to complete your study to your satisfaction.
+- You may incorporate as many figures as are crucial in your discussion, but edit your Quarto file to only produce the plots and output you intend to comment on, certainly including anything that is included in your Abstract or Slides, but also potentially including other things that did not make it into those pieces. 
+- Frank Harrell's [Manuscript Checklist of Statistical Problems to Detect and Avoid](https://discourse.datamethods.org/t/author-checklist/3407) may be helpful.
+
+

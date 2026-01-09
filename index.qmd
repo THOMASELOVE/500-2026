@@ -1,0 +1,36 @@
+---
+title: "500 Main Page for Spring 2026"
+date: last-modified
+---
+
+Welcome! PQHS 500 (also called CRSP 500) is taught by Professor Thomas Love in the Department of Population and Quantitative Health Sciences at Case Western Reserve University. 
+
+## Everything You Need Is Linked Here
+
+The menu bar includes links to just about everything you'll need this semester, including
+
+- the [course syllabus](https://thomaselove.github.io/500-syllabus-2026/)
+- the [course calendar](calendar.qmd), which provides the final word on all class sessions and deadlines, and also provides links to the materials used in each class session.
+- course assignment information, including [labs](lab1.qmd), the Observational Studies in Action ([OSIA](osia.qmd)) presentations of studies from the literature, and a semester-long [project](proj500.qmd).
+- information on [software](software.qmd), including installation of R and RStudio, key R packages, downloading [data (and code)](https://github.com/THOMASELOVE/500-data) you'll need for the class.
+- links to additional [Sources](https://github.com/THOMASELOVE/500-sources) (articles, etc.) that we'll be reading this semester, or that I think might be helpful to you.
+- a link to the [Canvas](https://canvas.case.edu/) system (CWRU log-in required) we use for turning in some assignments and posting links to recordings,
+- information about where you can [get help with the course and contact Dr. Love](contact.qmd).
+
+## What Should I Do Before Class Begins?
+
+In addition to exploring what's available on this website, you should ...
+
+1. **Buy the book**. During the course, we will read Paul Rosenbaum's book **Causal Inference**, which is available as an e-book or in paperback for under $15. Please buy the book and get started reading it as soon as you can.
+
+2. Once you have registered for the course, please visit our [Welcome to 500 survey](https://bit.ly/500-welcome-2026). You'll need to log into Google via CWRU to access the survey, which should take about 10 minutes to complete. Please complete the survey as soon as possible.
+
+3. **Download the software**. Install R and RStudio and some necessary R packages on a computer you can control throughout the semester. Details [are available here](software.qmd).
+
+## Accessing the 431-432 Class Notes
+
+The [431 Class Notes from Fall 2025 are here](https://thomaselove.github.io/431-book/), and should be until 2026-06-01.
+The [432 Class Notes from Spring 2026 are here](https://thomaselove.github.io/432-notes/), and should be until 2026-06-01.
+
+If you have any questions, [email Dr. Love](contact.qmd)
+

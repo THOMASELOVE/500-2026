@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "500-2026"
+  navbar:
+    background: secondary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Calendar"
+        href: calendar.qmd
+      - text: "Syllabus"
+        href: https://thomaselove.github.io/500-syllabus-2026/
+      - text: "Software"
+        href: software.qmd
+      - text: "Get Data"
+        href: https://github.com/THOMASELOVE/500-data
+      - text: "Examples"
+        href: https://thomaselove.github.io/500-examples/
+      - text: "Sources"
+        href: https://github.com/THOMASELOVE/500-sources
+      - text: "Labs"
+        menu: 
+          - lab0.qmd
+          - lab1.qmd
+          - lab2.qmd
+          - lab3.qmd
+          - lab4.qmd
+      - text: "OSIA"
+        href: osia.qmd
+      - text: "Project"
+        href: proj500.qmd
+    right:
+      - text: "Canvas"
+        href: https://canvas.case.edu/
+      - text: "Contact Us"
+        href: contact.qmd
+
+format:
+  html:
+    theme: spacelab
+    toc: true
+    date-format: iso
+    code-overflow: wrap
+
+

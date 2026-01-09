@@ -1,0 +1,79 @@
+---
+title: "Observational Studies in Action"
+date: last-modified
+---
+
+This page houses information about **Observational Studies in Action** (OSIA) work for the course.
+
+- Deadlines for all assignments in 500 are provided in the [Course Calendar](calendar.qmd).
+
+## The Assignment
+
+1. You will be responsible for presenting the methods and results of an observational study from the literature that uses propensity score methods. We call this role the "first reader".
+2. You will also serve as "second reader" from one of the studies selected by your colleagues. 
+
+## What makes an appropriate study?
+
+An appropriate study will 
+
+1. use (or at least primarily use) propensity score methods we will discuss in class (hence the need for Dr. Love's pre-approval)
+2. be a fully published manuscript, not a work in progress
+3. be published since 2015 in a venue where a PDF file of the study itself and any appendix materials can be shared with the class (so journals that are available to all CWRU affiliates are preferable). Dr. Love encourages you to look for studies published since 2020.
+4. **not** be one that you or your immediate supervisor have been involved in, and not be one that I have been involved in, in any capacity.
+
+## Claiming a Study
+
+Everyone will present a different study. To submit a study for approval, send a PDF of the study itself along with any appendix materials to Dr. Love in an **email to thomas dot love at case dot edu** entitled "OSIA proposal" and include a brief (100 words is sufficient, in the body of your email) description of why this particular study is of interest to you. 
+
+Please be sure to specify that you meet each of the four standards listed above.
+
+- Do not give Dr. Love a choice between two (or more) studies. Pick the one you want to do, and submit that. If you select a study that is unsuitable, Dr. Love will let you know as soon as he can, so you can quickly submit an alternative.
+- If you select an acceptable study and you are the first to "claim" it, it's yours. Once a study is claimed, Dr. Love will post it to [the OSIA claims page](https://github.com/THOMASELOVE/500-classes-2025/tree/main/osia). If you select a study that someone else has beaten you to, you will have to submit an alternative.
+
+All claims must be made by the deadline posted on the [Course Calendar](calendar.qmd).
+
+## Your Presentation as First Reader
+
+You will give a 12 minute presentation to the rest of the class summarizing the background, methods and key results of the study. 
+
+- I suggest you plan on spending at least half of the time discussing the statistical and design considerations. 
+- I strongly encourage you to provide useful graphs (created by you or by the original authors) to summarize key findings.
+- You will not have time to give more than a cursory explanation of the background of the study. Be aware that there are people in the room (like me) who have no formal clinical training.
+
+I encourage you to think hard about what might be most useful to us in this context. 
+
+## Second Reader
+
+For each OSIA study, a "second reader" will be assigned once all studies are established (so that everyone does this job once.) 
+
+- The "second reader" for each study will provide 3-4 minutes of commentary on the study after the first reader's presentation. You are expected to present 2-4 slides as second reader. 
+- You'll follow a first reader who is summarizing the whole paper. So you absolutely **should not** (as second reader) be providing a comprehensive summary of the entire paper.
+
+What you should do instead as second reader (regardless of whether you do so live or via recording) are the following things:
+
+1. Comment on the statistical elements of the paper you felt were either especially useful or especially confusing. It's very helpful to be specific about anything you wish was in the paper that was not
+
+2. React to the presentation of the first reader (whose slides will be available on our Shared Drive at 1 PM Wednesday for live presentations, and the week before your work is due for the videos), in particular, amplifying anything they have in their slides that you want to emphasize, and, perhaps, addressing any questions they pose.
+
+3. Finally, be sure to leave us with your key "take away message" for the paper, in light of your review.
+
+You could also (especially if you have specialized knowledge of the topic) provide a little additional motivation for the choices made by the researchers, as needed. But keep it to no more than 4 slides, not including a title slide with your name, an indication that you're the second reader and the paper's details on it.
+
+## Presentation Submission Details
+
+### for the First Reader
+
+Submit final versions of the slides for your class presentation (18 slides should be a reasonable maximum) to our **Shared Google Drive** by 1 PM on the day **before** your presentation. The file name should include your name.
+
+- This will allow Dr. Love, the second reader for your article, and anyone else in the class to review your slides in advance.
+
+### for the Second Reader
+
+Submit final versions of your 2-4 slides for your presentation to our **Shared Google Drive** by 7:30 AM on the day of your presentation. Be sure the file name includes your name. We expect you to have reviewed the slides prepared by the First Reader (posted the day before) in preparing your materials.
+
+### Audience Role
+
+For each OSIA study presented in class, everyone will read the abstracts in advance, so that we can have some understanding of what's involved and contribute to the discussion. PDFs of the papers will be posted to [the Claims page](https://github.com/THOMASELOVE/500-classes-2065/tree/main/osia) as they are approved by Dr. Love, and the **Shared Google Drive** will eventually contain these PDFs as well as slides for all of the in-class presentations.
+
+
+

@@ -1,0 +1,85 @@
+---
+title: "Lab 1"
+date: last-modified
+format: 
+  html:
+    code-overflow: wrap
+---
+
+# General Instructions
+
+- Submit your work via [Canvas](https://canvas.case.edu/). 
+- The deadline for this Lab is specified on the [Calendar](calendar.qmd).
+
+Your response should include both a Quarto file (.qmd) and an HTML document that is the result of applying your Quarto file to the data we've provided. 
+
+## 1. Get access to the DIG training data
+
+Visit https://biolincc.nhlbi.nih.gov/teaching/ and request copies of the DIG "teaching" data set.
+
+To help you get started while you wait for this information, you will find the following items on our [500-data site](https://github.com/THOMASELOVE/500-data).
+
+In the `data` folder:
+
+- a .csv file (`dig1.csv`) of [the DIG data set](https://raw.githubusercontent.com/THOMASELOVE/500-data/master/data/dig1.csv) you will obtain from NIH/BIOLINCC
+
+In the `sources` folder:
+
+- a [PDF of the DIG data description](https://github.com/THOMASELOVE/500-data/blob/master/sources/dig_documentation_with_supplement.pdf).
+- the [original 1997 publication](https://github.com/THOMASELOVE/500-data/blob/master/sources/dig_NEJM_1997.pdf) in the *New England Journal of Medicine* by the Digitalis Investigation Group.
+
+In the `templates` folder:
+
+- a [Quarto template for Lab 1](https://github.com/THOMASELOVE/500-data/blob/master/templates/500-lab1_template.qmd).
+
+Also, don't forget about the [Lab 0 example](lab0.qmd), which should be of some help in completing this Lab.
+
+## 2. Create a sample.
+
+Identify the subjects within the `dig1.csv` data which have complete information on the indicator of previous myocardial infarction, `PREVMI`. Filter the data set to include only those subjects.
+
+Then select a sample of 1000 subjects from DIG study participants with known `PREVMI`. Specify your sampling seed (via `set.seed`) to be `2024500` as part of selecting your sample of 1000 subjects. 
+
+## 3. Create a Table 1.
+
+The Table 1 should describe the data according to whether or not the subject had a previous myocardial infarction (`PREVMI`) across each of these 12 variables. 
+
+Variable | Description
+-------: | -----------------------------------------------------
+`TRTMT` | Treatment group (1 = DIG, 0 = Placebo)
+`AGE` | Age in years
+`RACE` | White (1) or Non-White (2)
+`SEX` | Male (1) or Female (2)
+`EJF_PER` | Ejection Fraction (percent)
+`CHESTX` | Chest X-ray (CT ratio)
+`BMI` | Body-Mass Index
+`KLEVEL` | Serum Potassium level (mEq/l)
+`CREAT` | Serum Creatinine level (mg/dl)
+`CHFDUR` | Approximate Duration of CHF (mos.)
+`EXERTDYS` | Dyspnea on exertion (see note)
+`FUNCTCLS` | Current NYHA Functional Class (1 = I, 2 = II, 3 = III, 4 = IV)
+
+Note that the `dyspnea` categories are: 0 = None or Unknown, 1 = Present, 2 = Past, 3 = Present and Past
+
+Be sure to correctly represent each of the categorical variables as factors, rather than in the numerical form they start in. Label your factors to ease the work for the viewer, and reduce or eliminate the need to look at a codebook. Also, be sure to accurately report whether any missing values are observed in this sample.
+
+*Note*: You're going to have to do this again with a revised sample later in this Lab, so it's worth it to code this in a reproducible way.
+
+## 4. Build a logistic regression model.
+
+Build a logistic regression model for previous MI using the main effects of the 12 variables above. I'd call the model `m1` that predicts the log odds of previous myocardial infarction (`PREVMI`) on the basis of the main effects of each of the twelve variables in your table above, for your sample of 1000 subjects. 
+
+How many observations does your model `m1` actually fit results for? (This is asking for the number of subjects without any missing values, across all variables in your model.)
+
+## 5. Redefine your sample and rebuild the Table and Model.
+
+Assuming you have at least one missing value in a predictor in your model for task 4, re-define your sample to include only the observations which are "complete cases" with no missing values on any of the key variables we're looking at. Specify the number of subjects (< 1000) that remain in your new sample. 
+
+Now, **redo both Tasks 3 and 4** to describe this new sample and use it to fit a model. Call the new model `m2`. Verify that missing values no longer plague this new model. 
+
+## 6. Add the fitted probabilities from Task 5 to your data, then plot them against observed status.
+
+Use the model (`m2`) you built in Task 5 to add the fitted probability of previous myocardial infarction to the sample you used to create `m2`. 
+
+Produce an attractive and useful graphical summary of the distribution of fitted probabilities of previous myocardial infarction broken down into two categories by the patient's actual `PREVMI` status in this sample. If needed, you should round the probabilities to two decimal places before visualizing them.
+

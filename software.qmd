@@ -1,0 +1,94 @@
+---
+title: "Software for 500"
+date: last-modified
+---
+
+The course makes heavy use of the R statistical programming language, and several related tools, most especially the RStudio development environment. Every bit of this software is free to use, and open-source.
+
+You will need access to a computer to do your work for this class, not just an iPad or other tablet, but an actual computer. You do not need a state of the art machine, nor should you need any special hardware to run things for this course. 
+
+# Installing R and RStudio
+
+The steps you need to complete are outlined at <https://posit.co/download/rstudio-desktop/#download>:
+
+1. Download and install **the latest version of R** (version **4.5.2** or later) from <https://cran.case.edu/> or, if you prefer, from <https://cloud.r-project.org/>, which automatically chooses a fast, nearby mirror for you.
+    - If you have a pre-existing installation of R and/or RStudio, we highly recommend that you re-install both to get current.
+
+2. Download and install **RStudio Desktop** (Open Source Edition - the free version **RStudio 2026.01.0+392** "Apple Blossom" or later) by visiting <https://posit.co/download/rstudio-desktop/#download>. This will also load everything you need for Quarto.
+
+3. Install some R Packages, [as detailed below](#r-packages-to-install).
+
+4. Install useful [R Data, Quarto Templates and Code](https://github.com/THOMASELOVE/500-data), provided by Professor Love at [our 500-data website](https://github.com/THOMASELOVE/500-data).
+
+# R Packages to Install
+
+An R "package" is a collection of functions, data, and documentation that extends the capabilities of R, and is the critical way to get R doing interesting work. These package instructions should be used after you’ve installed R and RStudio. We may add packages to this list as the semester continues.
+
+1. Open RStudio. Copy and paste the following lines of code into the Console window of RStudio to install a few key packages.
+
+```{r}
+#| eval: false
+
+## CRAN installations
+
+pkgs <- c(  "afex", "aplpack", "arm", "babynames", "boot", "broom", "broom.mixed", 
+            "car", "CBPS", "cobalt", "cowplot", "devtools", "ebal", "Epi", "ez", 
+            "faraway", "fivethirtyeight", "foreign", "gapminder", "gee", 
+            "geepack", "GGally", "ggforce", "ggrepel", "ggridges", "ggthemes", 
+            "glue", "gridExtra", "here", "Hmisc", "infer", "janitor", "knitr", 
+            "lars", "lattice", "leaps", "lme4", "lmerTest", "magrittr", 
+            "markdown", "MASS", "Matching", "MatchIt", "mice", "mosaic", 
+            "multcomp", "naniar", "NHANES", "optmatch", "pander", "patchwork", 
+            "pROC", "pscl", "psych", "pwr", "qcc", "QuantPsyc", "rbounds", 
+            "rgenoud", "rmarkdown", "rmdformats", "rms", "ROCR", "rstanarm", 
+            "sandwich", "simputation", "skimr", "spelling", "styler", "survey",
+            "survival", "survminer", "tableone", "tidymodels", "tidyverse", 
+            "twang", "usethis", "vcd", "viridis", "xfun")
+                
+install.packages(pkgs)
+
+```
+
+2. Execute those commands by hitting Enter.
+
+3. Now, go to the **Packages** tab on the right side of your RStudio screen, and click on **Update**.
+
+4. This will bring up a dialog box. I usually click **Select All**, then click **Install Updates**. 
+
+- A popup box may appear, asking "Do you want to install from sources the packages which need compilation?" to which I usually answer **No**. A **Yes** response leads to a slower installation, but can solve problems if you still have them after updating.
+- This may take a few minutes. As long as you're seeing activity in the Console window, things are progressing.
+- Eventually, you'll get a message that "The downloaded source packages are in ..." with a directory name. That's the sign that the updating is done.
+- Updating packages is something you'll do occasionally throughout the semester, mostly when a problem happens.
+
+5.  Finally, choose **File ... Quit Session** from the top menu, and accept or deny (I usually deny) RStudio's request to save your workspace. Then close RStudio, and re-open it if you want to do some work. 
+
+## Updating Your R Packages
+
+About twice a month, it's a good idea to update your R packages. To do so, follow steps 3 and 4 above.
+
+## The Meta-Packages
+
+- Installing the tidyverse meta-package installs the packages listed at <https://www.tidyverse.org/>.
+- Installing the tidymodels meta-package installs the packages listed at <https://www.tidymodels.org/packages/>.
+
+## Note: A Windows Issue with RTools
+
+If you are using Windows, and get messages during installation that the latest version of RTools needs to be installed, you can usually just ignore them. If you don’t want to ignore them, [go here to download and install RTools for Windows](https://cran.r-project.org/bin/windows/Rtools/).
+
+## Installing a Single Package
+
+If you want to install a single package, you can do so by finding the word Packages on the right side of your RStudio screen.
+
+1. Click on the Packages tab to start installing the packages you’ll need.
+2. Click Install, which will bring up a dialog box, where you can type in the names of the packages that you need. These should be separated by a space or comma. Be sure to leave the Install dependencies box checked.
+
+  - A popup box may appear, asking “Do you want to install from sources the packages which need compilation?” to which I usually answer No. A Yes response leads to a slower installation, but can solve problems if you still have them after updating.
+  - This may take a few minutes. As long as you’re seeing activity in the Console window, things are progressing.
+  - Eventually, you’ll get a message that “The downloaded source packages are in …” with a directory name. That’s the sign that the updating is done.
+  
+# Need Installation Help?
+
+If you need more help installing R or R Studio, you might look at [this terrific resource for Installing R and RStudio](https://stat545.com/install.html) from Jenny Bryan and the STAT 545 project. These are the people responsible for the great [Happy Git with R](http://happygitwithr.com/) project, which will also be worth your time when we are using Git and GitHub.
+
+- If you're having trouble with installation before our first class, don't worry too much. Professor Love (and some of your fellow students) will be available to help once the class gets going.
+
