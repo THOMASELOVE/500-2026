@@ -8,7 +8,7 @@ format:
 
 # What is this?
 
-500 Lab 0 is an Example with instructions, meant to help you get started on other Labs. Your task for Lab 0 is to read over these materials and see if they help you answer the questions that arise in generating your responses to your actual Lab assignments (Lab 1 - Lab 4) this semester. It's not a bad idea to try to build a response yourself, and then check it against my solution, but there's **nothing for you to turn in here**.
+500 Lab 0 is an Example with instructions which is meant to help you get started on other Labs. Your task for Lab 0 is to read over these materials and see if they help you answer the questions that arise in generating your responses to your actual Lab assignments (Lab 1 - Lab 4) this semester. It's not a bad idea to try to build a response yourself, and then check it against my solution, but there's **nothing for you to turn in here**.
 
 This work uses a data set called `lab0.csv` (which is a comma-separated .csv file suitable for reading into R.) You’ll find this in the data folder at our [500-data web site](https://github.com/THOMASELOVE/500-data).
 

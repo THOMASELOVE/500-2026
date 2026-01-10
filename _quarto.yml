@@ -42,6 +42,7 @@ format:
   html:
     theme: spacelab
     toc: true
+    date: last-modified
     date-format: iso
     code-overflow: wrap
 
