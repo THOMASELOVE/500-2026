@@ -7,7 +7,7 @@ This Calendar serves as the final word on all deadlines, deliverables and class 
 
 ## Classroom
 
-All in-person classes will be held on Thursdays from **9:00 - 11:15 AM** in Wolstein Research Building, Room 1217. F+or directions and parking information, [visit this link](https://case.edu/medicine/cbhi/about-us/directions-and-parking/cwru-school-medicine-health-sciences-campus).
+All in-person classes will be held on Thursdays from **9:00 - 11:15 AM** in Wolstein Research Building, Room 1217. For directions and parking information, [visit this link](https://case.edu/medicine/cbhi/about-us/directions-and-parking/cwru-school-medicine-health-sciences-campus).
 
 ## Email and Office Hours
 
@@ -17,27 +17,32 @@ All in-person classes will be held on Thursdays from **9:00 - 11:15 AM** in Wols
 
 ## Readings
 
-During the course, we will read Paul Rosenbaum's book **Causal Inference** (abbreviated **PRR CI** below), which is available as an e-book or in paperback for under $15. Please obtain the book before our first class on 2026-01-15, and get started reading it as soon as possible.
+During the course, we will read Paul Rosenbaum's book **Causal Inference** (abbreviated **PRR CI** below) which is available as an e-book or in paperback for under $15. Please obtain the book before our first class on 2026-01-15, and get started reading it as soon as possible.
 
 ## January 2026
 
 Class | Date | Description
 :-------: | :--------: | :--------------------------------------------------------
 Class 1 | 01-15 | Randomized Trials and Observational Studies: Motivation
-**Lab 0** | 01-20 | Work through Lab 0 before Class 2 (nothing to submit)
+**Survey** | 01-20 | Submit [Welcome to 500 Survey](https://bit.ly/500-welcome-2026) by noon 
+-- | 01-21 | Prior to Class 2: work through [Lab 0](lab0.qmd) <br/> Read **PRR CI** through Chapter 3 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Benson & Hartz 2000, Abramson Chapter 2 <br/> McGowan blog, Bradford Hill 1965
 Class 2 | 01-22 | STROBE, HRT, Assessing Causal Effects, Propensity Score
 **Lab 1** | 01-27 | [Lab 1](lab1.qmd) is due to [Canvas](https://canvas.case.edu/) at noon
+-- | 01-28 | Prior to Class 3, Read **PRR CI** through Chapter 4 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Gum 2001, Connors 1996
 Class 3 | 01-29 | Building the PS Model, Match/Stratify/Adjust, Love Plots
 
 ## February 2026
 
 Class | Date | Description
 :-------: | :--------: | :--------------------------------------------------------
-Class 4 | 02-05 | Doing all of this in R: The toy example
-**OSIA** | 02-10 | Email OSIA selections to Dr. Love by Noon.
-Class 5 | 02-12 | The lindner example, The dm2200 example, Choosing a Matching Approach
-**No class** | 02-19 | Focused OSIA and Project development time
+-- | 02-04 | Prior to Class 4, Read **PRR CI** through Chapter 5 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Normand 2001
+Class 4 | 02-05 | Doing all of this in R: [The toy example](https://thomaselove.github.io/500-examples/)
+**OSIA** | 02-10 | Email [OSIA selections](osia.qmd) to Dr. Love by Noon.
+-- | 02-11 | Prior to Class 5, Read **PRR CI** through Chapter 6 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Austin 2014, Ahmed MI 2012
+Class 5 | 02-12 | [The lindner example, The dm2200 example](https://thomaselove.github.io/500-examples/), <br/> Choosing a Matching Approach
+*No class* | 02-19 | Focused OSIA and Project development time
 **Lab 2** | 02-24 | [Lab 2](lab2.qmd) is due to [Canvas](https://canvas.case.edu/) at noon
+-- | 02-25 | Prior to Class 6, [Sources](https://github.com/THOMASELOVE/500-sources): Rubin 2001 <br/> Austin and Mamdani 2006, Kubo 2020, Hansen 2004
 Class 6 | 02-26 | Rubin (2001) & Rubin's Rules, Austin & Mamdani
 
 ## March 2026
@@ -45,22 +50,33 @@ Class 6 | 02-26 | Rubin (2001) & Rubin's Rules, Austin & Mamdani
 Class | Date | Description
 :-------: | :--------: | :--------------------------------------------------------
 **Project** | 03-03 | Project Proposal due to [Canvas](https://canvas.case.edu/) at noon
-Class 7 | 03-05 | The SUPPORT Study, Sensitivity Analyses after Matching
-No class | 03-12 | Spring Break
+-- | 03-04 | Prior to Class 7, [Sources](https://github.com/THOMASELOVE/500-sources): Connors 1996, D'Agostino 1998
+Class 7 | 03-05 | [The SUPPORT Study](https://thomaselove.github.io/500-examples/), Sensitivity Analyses after Matching
+*No class* | 03-12 | Spring Break
 **Lab 3** | 03-17 | [Lab 3](lab3.qmd) is due to [Canvas](https://canvas.case.edu/) at noon
+-- | 03-18 | Prior to Class 8, Read **PRR CI** through Chapter 7 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Whitehouse 2007, Landrum and Ayanian 2001 <br/> Tanenbaum 2019
 Class 8 | 03-19 | Extensions to Matching, Instrumental Variables, Scheduling Projects
-**Lab 3** | 03-24 | [Lab 4](lab4.qmd) is due to [Canvas](https://canvas.case.edu/) at noon
-Class 9 | 03-26 | OSIA presentations (group 1), Other Items TBA
+**Lab 4** | 03-24 | [Lab 4](lab4.qmd) is due to [Canvas](https://canvas.case.edu/) at noon
+-- | 03-25 | Prior to Class 9, Read **PRR CI** through Chapter 8
+**OSIA 1** | 03-25 | First Readers for Class 9: <br/> submit [OSIA Slides](osia.qmd) to Google Drive by noon
+**OSIA 1** | 03-26 | Second Readers for Class 9: <br/> submit [OSIA Slides](osia.qmd) to Google Drive by 7:30 AM
+Class 9 | 03-26 | [OSIA](osia.qmd) presentations (group 1), Other Items TBA
 
 ## April 2026
 
 Class | Date | Description
 :-------: | :--------: | :--------------------------------------------------------
-Class 10 | 04-02 | OSIA presentations (group 2), Other Items TBA
+-- | 04-01 | Prior to Class 10, Read **PRR CI** through Chapter 9
+**OSIA 2** | 04-01 | First Readers for Class 10: <br/> submit [OSIA Slides](osia.qmd) to Google Drive by noon
+**OSIA 2** | 04-02 | Second Readers for Class 10: <br/> submit [OSIA Slides](osia.qmd) to Google Drive by 7:30 AM
+Class 10 | 04-02 | [OSIA](osia.qmd) presentations (group 2), Other Items TBA
+-- | 04-08 | Prior to Class 11, [Sources](https://github.com/THOMASELOVE/500-sources): Elbadawi 2021 <br/> Lehr 2019, Posner 2001
 Class 11 | 04-09 | More Advanced Topics and Project Discussion
-**Projects** | 04-16 | Project Presentations, session 1
-**Projects** | 04-23 | Project Presentations, session 2 and Course Wrap-Up
-**Deadline** | 04-28 | All Project Materials due to [Canvas](https://canvas.case.edu/) at noon.
+**Project** | 04-15 | Session 1 Project presenters: <br/> Submit [abstract and slides](proj500.qmd) by noon to Google Drive
+Class 12 | 04-16 | Project Presentations, session 1
+**Project** | 04-22 | Session 2 Project presenters: <br/> Submit [abstract and slides](proj500.qmd) by noon to Google Drive
+Class 13 | 04-23 | Project Presentations, session 2 and Course Wrap-Up
+**Deadline** | 04-28 | Final Project Materials due to [Canvas](https://canvas.case.edu/) at noon.
 
 - When prompted via email by the University (in late April), visit <https://webapps.case.edu/courseevals/> to complete the 500 course evaluation.
 

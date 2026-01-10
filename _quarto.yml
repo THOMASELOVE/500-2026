@@ -5,7 +5,6 @@ project:
 website:
   title: "500-2026"
   navbar:
-    background: secondary
     search: true
     left:
       - text: "Home"
