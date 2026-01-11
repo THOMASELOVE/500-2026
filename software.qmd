@@ -33,7 +33,7 @@ An R "package" is a collection of functions, data, and documentation that extend
 
 pkgs <- c(  "afex", "aplpack", "arm", "babynames", "boot", "broom", "broom.mixed", 
             "car", "CBPS", "cobalt", "cowplot", "devtools", "ebal", "Epi", "ez", 
-            "faraway", "fivethirtyeight", "foreign", "gapminder", "gee", 
+            "faraway", "fivethirtyeight", "flextable", "foreign", "gapminder", "gee", 
             "geepack", "GGally", "ggforce", "ggrepel", "ggridges", "ggthemes", 
             "glue", "gridExtra", "here", "Hmisc", "infer", "janitor", "knitr", 
             "lars", "lattice", "leaps", "lme4", "lmerTest", "magrittr", 

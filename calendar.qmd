@@ -24,20 +24,20 @@ During the course, we will read Paul Rosenbaum's book **Causal Inference** (abbr
 
 Class | Date | Description
 :-------: | :--------: | :--------------------------------------------------------
-Class 1 | 01-15 | Randomized Trials and Observational Studies: Motivation
+[Class 1](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class01) | 01-15 | Randomized Trials and Observational Studies: Motivation
 **Survey** | 01-20 | Submit [Welcome to 500 Survey](https://bit.ly/500-welcome-2026) by noon 
 -- | 01-21 | Prior to Class 2: work through [Lab 0](lab0.qmd) <br/> Read **PRR CI** through Chapter 3 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Benson & Hartz 2000, Abramson Chapter 2 <br/> McGowan blog, Bradford Hill 1965
-Class 2 | 01-22 | STROBE, HRT, Assessing Causal Effects, Propensity Score
+[Class 2](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class02) | 01-22 | STROBE, HRT, Assessing Causal Effects, Propensity Score
 **Lab 1** | 01-27 | [Lab 1](lab1.qmd) is due to [Canvas](https://canvas.case.edu/) at noon
 -- | 01-28 | Prior to Class 3, Read **PRR CI** through Chapter 4 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Gum 2001, Connors 1996
-Class 3 | 01-29 | Building the PS Model, Match/Stratify/Adjust, Love Plots
+[Class 3](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class03) | 01-29 | Building the PS Model, Match/Stratify/Adjust, Love Plots
 
 ## February 2026
 
 Class | Date | Description
 :-------: | :--------: | :--------------------------------------------------------
 -- | 02-04 | Prior to Class 4, Read **PRR CI** through Chapter 5 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Normand 2001
-Class 4 | 02-05 | Doing all of this in R: [The toy example](https://thomaselove.github.io/500-examples/)
+[Class 4](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class04) | 02-05 | Doing all of this in R: [The toy example](https://thomaselove.github.io/500-examples/)
 **OSIA** | 02-10 | Email [OSIA selections](osia.qmd) to Dr. Love by Noon.
 -- | 02-11 | Prior to Class 5, Read **PRR CI** through Chapter 6 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Austin 2014, Ahmed MI 2012
 Class 5 | 02-12 | [The lindner example, The dm2200 example](https://thomaselove.github.io/500-examples/), <br/> Choosing a Matching Approach
