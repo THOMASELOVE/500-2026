@@ -11,9 +11,10 @@ All in-person classes will be held on Thursdays from **9:00 - 11:15 AM** in Wols
 
 ## Email and Office Hours
 
-- Contact Dr. Love at **thomas** dot **love** at **case** dot **edu** if you have any questions.
-- Dr. Love will hold office hours after class for 30 minutes. Just let him know during class if you want to speak with him afterwards.
-- For more information, visit [Contact Us](contact.qmd).
+To contact us for anything related to the course, use **500-help at case dot edu**. If you need to email me directly, that's **Thomas dot Love at case dot edu**.
+
+- Dr. Love will hold office hours after class on **Thursdays from 11:15 to noon**. Just let him know during class if you want to speak with him afterwards.
+- We also have a teaching assistant, **Sarah Albalawi**. Sarah will hold her office hours on **Sundays from 2:00 to 3:30 PM**, and can help especially with issues regarding R and the assignments. Zoom information to join Sarah's office hours will be posted here, as well as on the [Contact Us](contact.qmd) page, in on our Shared Google Drive, and on Canvas, as soon as they are available.
 
 ## Readings
 

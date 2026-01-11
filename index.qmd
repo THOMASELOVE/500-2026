@@ -32,5 +32,5 @@ In addition to exploring what's available on this website, you should ...
 The [431 Class Notes from Fall 2025 are here](https://thomaselove.github.io/431-book/), and should be until 2026-06-01.
 The [432 Class Notes from Spring 2026 are here](https://thomaselove.github.io/432-notes/), and should be until 2026-06-01.
 
-If you have any questions, [email Dr. Love](contact.qmd)
+If you have any questions, email us at **500-help** at **case dot edu**.
 
