@@ -4,9 +4,12 @@ title: "Contact Us"
 
 If you have a question at any time once the course begins, send it by email to us at **500-help** at **case** dot **edu**.
 
-I will generally be available for a half-hour after class on Thursdays for informal office hours. Just let me know during class if you're planning to chat with me after class.
+I will generally be available between the end of class and Noon on Thursdays for informal office hours. Just let me know during class if you're planning to chat with me after class.
 
-We also have a teaching assistant, **Sarah Albalawi**. Sarah will hold her office hours on Sundays from 2:00 to 3:30 PM, and will be available to help you with issues regarding R and the assignments. Zoom information to join these office hours will be posted here, on our Shared Google Drive, and on Canvas, as soon as they are available.
+This semester, our teaching assistant is **Sarah Albalawi**. Sarah will hold her office hours on Sundays from 2:00 to 3:30 PM, and will be available to help you with issues regarding R and the assignments. Zoom information to join these office hours is posted on our Shared Google Drive, and on Canvas. Sessions start on Sunday 2026-01-18 and continue through 2026-04-19. There is no need to make a reservation - just drop in.
 
-Again, to contact us for anything related to the course, use **500-help at case dot edu**. If you need to email me directly, that's **Thomas dot Love at case dot edu**.
+Again, to contact us for anything related to the course:
+
+- use **500-help at case dot edu** (which will go to both Sarah and myself.) 
+- If you need to email me directly, that's **Thomas dot Love at case dot edu**.
 

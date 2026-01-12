@@ -14,7 +14,7 @@ All in-person classes will be held on Thursdays from **9:00 - 11:15 AM** in Wols
 To contact us for anything related to the course, use **500-help at case dot edu**. If you need to email me directly, that's **Thomas dot Love at case dot edu**.
 
 - Dr. Love will hold office hours after class on **Thursdays from 11:15 to noon**. Just let him know during class if you want to speak with him afterwards.
-- We also have a teaching assistant, **Sarah Albalawi**. Sarah will hold her office hours on **Sundays from 2:00 to 3:30 PM**, and can help especially with issues regarding R and the assignments. Zoom information to join Sarah's office hours will be posted here, as well as on the [Contact Us](contact.qmd) page, in on our Shared Google Drive, and on Canvas, as soon as they are available.
+- We also have a teaching assistant, **Sarah Albalawi**. Sarah will hold her office hours on **Sundays from 2:00 to 3:30 PM**, starting 2026-01-18, and can help especially with issues regarding R and the assignments. Zoom information to join these office hours is posted on our Shared Google Drive, and on Canvas. Sessions start on Sunday 2026-01-18 and continue through 2026-04-19. There is no need to make a reservation - just drop in.
 
 ## Readings
 
@@ -25,6 +25,7 @@ During the course, we will read Paul Rosenbaum's book **Causal Inference** (abbr
 Class | Date | Description
 :-------: | :--------: | :--------------------------------------------------------
 [Class 1](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class01) | 01-15 | Randomized Trials and Observational Studies: Motivation
+-- | 01-18 | **TA office hours** begin with Sarah Albalawi every Sunday from **2:00 to 3:30 PM**
 **Survey** | 01-20 | Submit [Welcome to 500 Survey](https://bit.ly/500-welcome-2026) by noon 
 -- | 01-21 | Prior to Class 2: work through [Lab 0](lab0.qmd) <br/> Read **PRR CI** through Chapter 3 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Benson & Hartz 2000, Abramson Chapter 2 <br/> McGowan blog, Bradford Hill 1965
 [Class 2](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class02) | 01-22 | STROBE, HRT, Assessing Causal Effects, Propensity Score
