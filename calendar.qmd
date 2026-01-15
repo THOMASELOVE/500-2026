@@ -24,7 +24,7 @@ During the course, we will read Paul Rosenbaum's book **Causal Inference** (abbr
 
 Class | Date | Description
 :-------: | :--------: | :--------------------------------------------------------
-[Class 1](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class01) | 01-15 | Randomized Trials and Observational Studies: Motivation
+[Class 1](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class01) | 01-15 | **ZOOM ONLY**: Randomized Trials and Observational Studies: Motivation
 -- | 01-18 | **TA office hours** begin with Sarah Albalawi every Sunday from **2:00 to 3:30 PM**
 **Survey** | 01-20 | Submit [Welcome to 500 Survey](https://bit.ly/500-welcome-2026) by noon 
 -- | 01-21 | Prior to Class 2: work through [Lab 0](lab0.qmd) <br/> Read **PRR CI** through Chapter 3 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Benson & Hartz 2000, Abramson Chapter 2 <br/> McGowan blog, Bradford Hill 1965
