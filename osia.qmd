@@ -28,7 +28,7 @@ Everyone will present a different study. To submit a study for approval, send a 
 Please be sure to specify that you meet each of the four standards listed above.
 
 - Do not give Dr. Love a choice between two (or more) studies. Pick the one you want to do, and submit that. If you select a study that is unsuitable, Dr. Love will let you know as soon as he can, so you can quickly submit an alternative.
-- If you select an acceptable study and you are the first to "claim" it, it's yours. Once a study is claimed, Dr. Love will post it to [the OSIA claims page](https://github.com/THOMASELOVE/500-classes-2025/tree/main/osia). If you select a study that someone else has beaten you to, you will have to submit an alternative.
+- If you select an acceptable study and you are the first to "claim" it, it's yours. Once a study is claimed, Dr. Love will post it to [the OSIA claims page](https://github.com/THOMASELOVE/500-classes-2026/tree/main/osia). If you select a study that someone else has beaten you to, you will have to submit an alternative.
 
 All claims must be made by the deadline posted on the [Course Calendar](calendar.qmd).
 
@@ -73,7 +73,7 @@ Submit final versions of your 2-4 slides for your presentation to our **Shared G
 
 ### Audience Role
 
-For each OSIA study presented in class, everyone will read the abstracts in advance, so that we can have some understanding of what's involved and contribute to the discussion. PDFs of the papers will be posted to [the Claims page](https://github.com/THOMASELOVE/500-classes-2065/tree/main/osia) as they are approved by Dr. Love, and the **Shared Google Drive** will eventually contain these PDFs as well as slides for all of the in-class presentations.
+For each OSIA study presented in class, everyone will read the abstracts in advance, so that we can have some understanding of what's involved and contribute to the discussion. PDFs of the papers will be posted to [the Claims page](https://github.com/THOMASELOVE/500-classes-2026/tree/main/osia) as they are approved by Dr. Love, and the **Shared Google Drive** will eventually contain these PDFs as well as slides for all of the in-class presentations.
 
 
 
