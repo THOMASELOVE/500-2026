@@ -20,18 +20,6 @@ To contact us for anything related to the course, use **500-help at case dot edu
 
 During the course, we will read Paul Rosenbaum's book **Causal Inference** (abbreviated **PRR CI** below) which is available as an e-book or in paperback for under $15. Please obtain the book before our first class on 2026-01-15, and get started reading it as soon as possible.
 
-## January 2026
-
-Class | Date | Description
-:-------: | :--------: | :--------------------------------------------------------
-[Class 1](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class01) | 01-15 | **ZOOM ONLY**: Randomized Trials and Observational Studies: Motivation
--- | 01-18 | **TA office hours** begin with Sarah Albalawi every Sunday from **2:00 to 3:30 PM**
-**Survey** | 01-20 | Submit [Welcome to 500 Survey](https://bit.ly/500-welcome-2026) by noon 
--- | 01-21 | Prior to Class 2: work through [Lab 0](lab0.qmd) <br/> Read **PRR CI** through Chapter 3 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Benson & Hartz 2000, Abramson Chapter 2 <br/> McGowan blog, Bradford Hill 1965
-[Class 2](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class02) | 01-22 | STROBE, HRT, Assessing Causal Effects, Propensity Score
-**Lab 1** | 01-27 | [Lab 1](lab1.qmd) is due to [Canvas](https://canvas.case.edu/) at noon
--- | 01-28 | Prior to Class 3, Read **PRR CI** through Chapter 4 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Gum 2001, Connors 1996
-[Class 3](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class03) | 01-29 | Building the PS Model, Match/Stratify/Adjust, Love Plots
 
 ## February 2026
 
@@ -42,7 +30,7 @@ Class | Date | Description
 **OSIA** | 02-10 | Email [OSIA selections](osia.qmd) to Dr. Love by Noon.
 -- | 02-11 | Prior to Class 5, Read **PRR CI** through Chapter 6 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Austin 2014, Ahmed MI 2012
 [Class 5](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class05) | 02-12 | [The lindner example, The dm2200 example](https://thomaselove.github.io/500-examples/), <br/> Choosing a Matching Approach
-*No class* | 02-19 | Focused OSIA and Project development time
+*No class* | 02-19 | Focused Lab 2, OSIA and Project development time
 **Lab 2** | 02-24 | [Lab 2](lab2.qmd) is due to [Canvas](https://canvas.case.edu/) at noon
 -- | 02-25 | Prior to Class 6, [Sources](https://github.com/THOMASELOVE/500-sources): Rubin 2001 <br/> Austin and Mamdani 2006, Kubo 2020
 [Class 6](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class06) | 02-26 | Rubin (2001) & Rubin's Rules, Austin & Mamdani
@@ -86,4 +74,16 @@ Class 13 | 04-23 | Project Presentations, session 2 and Course Wrap-Up
 
 On or slightly after 2026-06-01.
 
+## January 2026
+
+Class | Date | Description
+:-------: | :--------: | :--------------------------------------------------------
+[Class 1](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class01) | 01-15 | **ZOOM ONLY**: Randomized Trials and Observational Studies: Motivation
+-- | 01-18 | **TA office hours** begin with Sarah Albalawi every Sunday from **2:00 to 3:30 PM**
+**Survey** | 01-20 | Submit [Welcome to 500 Survey](https://bit.ly/500-welcome-2026) by noon 
+-- | 01-21 | Prior to Class 2: work through [Lab 0](lab0.qmd) <br/> Read **PRR CI** through Chapter 3 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Benson & Hartz 2000, Abramson Chapter 2 <br/> McGowan blog, Bradford Hill 1965
+[Class 2](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class02) | 01-22 | STROBE, HRT, Assessing Causal Effects, Propensity Score
+**Lab 1** | 01-27 | [Lab 1](lab1.qmd) is due to [Canvas](https://canvas.case.edu/) at noon
+-- | 01-28 | Prior to Class 3, Read **PRR CI** through Chapter 4 <br/> [Sources](https://github.com/THOMASELOVE/500-sources): Gum 2001, Connors 1996
+[Class 3](https://github.com/THOMASELOVE/500-classes-2026/tree/main/class03) | 01-29 | Building the PS Model, Match/Stratify/Adjust, Love Plots
 

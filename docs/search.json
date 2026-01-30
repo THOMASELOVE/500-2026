@@ -259,18 +259,11 @@
     "text": "Readings\nDuring the course, we will read Paul Rosenbaum’s book Causal Inference (abbreviated PRR CI below) which is available as an e-book or in paperback for under $15. Please obtain the book before our first class on 2026-01-15, and get started reading it as soon as possible."
   },
   {
-    "objectID": "calendar.html#january-2026",
-    "href": "calendar.html#january-2026",
-    "title": "Calendar for 500: Spring 2026",
-    "section": "January 2026",
-    "text": "January 2026\n\n\n\nClass\nDate\nDescription\n\n\n\n\nClass 1\n01-15\nZOOM ONLY: Randomized Trials and Observational Studies: Motivation\n\n\n–\n01-18\nTA office hours begin with Sarah Albalawi every Sunday from 2:00 to 3:30 PM\n\n\nSurvey\n01-20\nSubmit Welcome to 500 Survey by noon\n\n\n–\n01-21\nPrior to Class 2: work through Lab 0  Read PRR CI through Chapter 3  Sources: Benson & Hartz 2000, Abramson Chapter 2  McGowan blog, Bradford Hill 1965\n\n\nClass 2\n01-22\nSTROBE, HRT, Assessing Causal Effects, Propensity Score\n\n\nLab 1\n01-27\nLab 1 is due to Canvas at noon\n\n\n–\n01-28\nPrior to Class 3, Read PRR CI through Chapter 4  Sources: Gum 2001, Connors 1996\n\n\nClass 3\n01-29\nBuilding the PS Model, Match/Stratify/Adjust, Love Plots"
-  },
-  {
     "objectID": "calendar.html#february-2026",
     "href": "calendar.html#february-2026",
     "title": "Calendar for 500: Spring 2026",
     "section": "February 2026",
-    "text": "February 2026\n\n\n\nClass\nDate\nDescription\n\n\n\n\n–\n02-04\nPrior to Class 4, Read PRR CI through Chapter 5  Sources: Normand 2001\n\n\nClass 4\n02-05\nDoing all of this in R: The toy example\n\n\nOSIA\n02-10\nEmail OSIA selections to Dr. Love by Noon.\n\n\n–\n02-11\nPrior to Class 5, Read PRR CI through Chapter 6  Sources: Austin 2014, Ahmed MI 2012\n\n\nClass 5\n02-12\nThe lindner example, The dm2200 example,  Choosing a Matching Approach\n\n\nNo class\n02-19\nFocused OSIA and Project development time\n\n\nLab 2\n02-24\nLab 2 is due to Canvas at noon\n\n\n–\n02-25\nPrior to Class 6, Sources: Rubin 2001  Austin and Mamdani 2006, Kubo 2020\n\n\nClass 6\n02-26\nRubin (2001) & Rubin’s Rules, Austin & Mamdani"
+    "text": "February 2026\n\n\n\nClass\nDate\nDescription\n\n\n\n\n–\n02-04\nPrior to Class 4, Read PRR CI through Chapter 5  Sources: Normand 2001\n\n\nClass 4\n02-05\nDoing all of this in R: The toy example\n\n\nOSIA\n02-10\nEmail OSIA selections to Dr. Love by Noon.\n\n\n–\n02-11\nPrior to Class 5, Read PRR CI through Chapter 6  Sources: Austin 2014, Ahmed MI 2012\n\n\nClass 5\n02-12\nThe lindner example, The dm2200 example,  Choosing a Matching Approach\n\n\nNo class\n02-19\nFocused Lab 2, OSIA and Project development time\n\n\nLab 2\n02-24\nLab 2 is due to Canvas at noon\n\n\n–\n02-25\nPrior to Class 6, Sources: Rubin 2001  Austin and Mamdani 2006, Kubo 2020\n\n\nClass 6\n02-26\nRubin (2001) & Rubin’s Rules, Austin & Mamdani"
   },
   {
     "objectID": "calendar.html#march-2026",
@@ -292,6 +285,13 @@
     "title": "Calendar for 500: Spring 2026",
     "section": "When will the materials disappear?",
     "text": "When will the materials disappear?\nOn or slightly after 2026-06-01."
+  },
+  {
+    "objectID": "calendar.html#january-2026",
+    "href": "calendar.html#january-2026",
+    "title": "Calendar for 500: Spring 2026",
+    "section": "January 2026",
+    "text": "January 2026\n\n\n\nClass\nDate\nDescription\n\n\n\n\nClass 1\n01-15\nZOOM ONLY: Randomized Trials and Observational Studies: Motivation\n\n\n–\n01-18\nTA office hours begin with Sarah Albalawi every Sunday from 2:00 to 3:30 PM\n\n\nSurvey\n01-20\nSubmit Welcome to 500 Survey by noon\n\n\n–\n01-21\nPrior to Class 2: work through Lab 0  Read PRR CI through Chapter 3  Sources: Benson & Hartz 2000, Abramson Chapter 2  McGowan blog, Bradford Hill 1965\n\n\nClass 2\n01-22\nSTROBE, HRT, Assessing Causal Effects, Propensity Score\n\n\nLab 1\n01-27\nLab 1 is due to Canvas at noon\n\n\n–\n01-28\nPrior to Class 3, Read PRR CI through Chapter 4  Sources: Gum 2001, Connors 1996\n\n\nClass 3\n01-29\nBuilding the PS Model, Match/Stratify/Adjust, Love Plots"
   },
   {
     "objectID": "contact.html",
